@@ -1,0 +1,284 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+// primary
+.luk-fill--primary {
+  background-color: $color-primary !important;
+}
+
+.luk-fill--primary-darker {
+  background-color: $color-primary-darker !important;
+}
+
+.luk-fill--primary-darkest {
+  background-color: $color-primary-darkest !important;
+}
+
+// primary-alt
+.luk-fill--primary-alt {
+  background-color: $color-primary-alt !important;
+}
+
+.luk-fill--primary-alt-dark {
+  background-color: $color-primary-alt-dark !important;
+}
+
+.luk-fill--primary-alt-darkest {
+  background-color: $color-primary-alt-darkest !important;
+}
+
+.luk-fill--primary-alt-light {
+  background-color: $color-primary-alt-light !important;
+}
+
+.luk-fill--primary-alt-lightest {
+  background-color: $color-primary-alt-lightest !important;
+}
+
+// gray
+.luk-fill--gray {
+  background-color: $color-gray !important;
+}
+
+.luk-fill--gray-dark {
+  background-color: $color-gray-dark !important;
+}
+
+.luk-fill--gray-light {
+  background-color: $color-gray-light !important;
+}
+
+.luk-fill--gray-lighter {
+  background-color: $color-gray-lighter !important;
+}
+
+.luk-fill--gray-lightest {
+  background-color: $color-gray-lightest !important;
+}
+
+.luk-fill--muted-inverse {
+  background-color: $color-muted-inverse !important;
+}
+
+// Gold
+.luk-fill--gold {
+  background-color: $color-gold !important;
+}
+
+.luk-fill--gold-light {
+  background-color: $color-gold-light !important;
+}
+
+.luk-fill--gold-lighter {
+  background-color: $color-gold-lighter !important;
+}
+
+.luk-fill--gold-lightest {
+  background-color: $color-gold-lightest !important;
+}
+
+.luk-fill--gold-dark {
+  background-color: $color-gold-dark !important;
+}
+
+.luk-fill--gold-darker {
+  background-color: $color-gold-darker !important;
+}
+
+.luk-fill--gold-darkest {
+  background-color: $color-gold-darkest !important;
+}
+
+// Green
+.luk-fill--green {
+  background-color: $color-green !important;
+}
+
+.luk-fill--green-light {
+  background-color: $color-green-light !important;
+}
+
+.luk-fill--green-lighter {
+  background-color: $color-green-lighter !important;
+}
+
+.luk-fill--green-lightest {
+  background-color: $color-green-lightest !important;
+}
+
+.luk-fill--green-dark {
+  background-color: $color-green-dark !important;
+}
+
+.luk-fill--green-darker {
+  background-color: $color-green-darker !important;
+}
+
+.luk-fill--green-darkest {
+  background-color: $color-green-darkest !important;
+}
+
+// red
+.luk-fill--red {
+  background-color: $color-red !important;
+}
+
+.luk-fill--red-light {
+  background-color: $color-red-light !important;
+}
+
+.luk-fill--red-lighter {
+  background-color: $color-red-lighter !important;
+}
+
+.luk-fill--red-lightest {
+  background-color: $color-red-lightest !important;
+}
+
+.luk-fill--red-dark {
+  background-color: $color-red-dark !important;
+}
+
+.luk-fill--red-darker {
+  background-color: $color-red-darker !important;
+}
+
+.luk-fill--red-darkest {
+  background-color: $color-red-darkest !important;
+}
+
+// State color - error
+
+.luk-fill--error {
+  background-color: $color-error !important;
+}
+
+.luk-fill--error-light {
+  background-color: $color-error-light !important;
+}
+
+.luk-fill--error-lighter {
+  background-color: $color-error-lighter !important;
+}
+
+.luk-fill--error-lightest {
+  background-color: $color-error-lightest !important;
+}
+
+.luk-fill--error-dark {
+  background-color: $color-error-dark !important;
+}
+
+.luk-fill--error-darker {
+  background-color: $color-error-darker !important;
+}
+
+.luk-fill--error-darkest {
+  background-color: $color-error-darkest !important;
+}
+
+// State color - warn
+
+.luk-fill--warn {
+  background-color: $color-warn !important;
+}
+
+.luk-fill--warn-light {
+  background-color: $color-warn-light !important;
+}
+
+.luk-fill--warn-lighter {
+  background-color: $color-warn-lighter !important;
+}
+
+.luk-fill--warn-lightest {
+  background-color: $color-warn-lightest !important;
+}
+
+.luk-fill--warn-dark {
+  background-color: $color-warn-dark !important;
+}
+
+.luk-fill--warn-darker {
+  background-color: $color-warn-darker !important;
+}
+
+.luk-fill--warn-darkest {
+  background-color: $color-warn-darkest !important;
+}
+
+// State color - success
+
+.luk-fill--success {
+  background-color: $color-success !important;
+}
+
+.luk-fill--success-light {
+  background-color: $color-success-light !important;
+}
+
+.luk-fill--success-lighter {
+  background-color: $color-success-lighter !important;
+}
+
+.luk-fill--success-lightest {
+  background-color: $color-success-lightest !important;
+}
+
+.luk-fill--success-dark {
+  background-color: $color-success-dark !important;
+}
+
+.luk-fill--success-darker {
+  background-color: $color-success-darker !important;
+}
+
+.luk-fill--success-darkest {
+  background-color: $color-success-darkest !important;
+}
+
+// base colors
+.luk-fill--base {
+  background-color: $color-base !important;
+}
+
+.luk-fill--white {
+  background-color: $color-white !important;
+}
+
+.luk-fill--black {
+  background-color: $color-black !important;
+}
+
+.luk-fill--background {
+  background-color: $color-background !important;
+}
+
+.luk-fill--background-inverse {
+  background-color: $color-background-inverse !important;
+}
+
+.luk-fill--transparent {
+  background-color: transparent !important;
+}
+
+// Focus colors
+.luk-fill--focus-color-light {
+  background-color: $color-focus-light !important;
+}
+
+.luk-fill--focus-color-dark {
+  background-color: $color-focus-dark !important;
+}
+// Deprecated Focus colors
+.luk-fill--focus-color {
+  background-color: $focus-color !important;
+}
+
+.luk-fill--focus-color-inverse {
+  background-color: $focus-color-inverse !important;
+}
+
+.luk-fill--focus-border-inverse {
+  background-color: $focus-border-inverse !important;
+}

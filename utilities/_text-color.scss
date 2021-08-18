@@ -1,0 +1,103 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+// primary
+.luk-color--primary:not(:focus) {
+  color: $color-primary !important;
+}
+
+.luk-color--primary-darker:not(:focus) {
+  color: $color-primary-darker !important;
+}
+
+.luk-color--primary-darkest:not(:focus) {
+  color: $color-primary-darkest !important;
+}
+
+// primary alt
+.luk-color--primary-alt:not(:focus) {
+  color: $color-primary-alt !important;
+}
+
+.luk-color--primary-alt-light:not(:focus) {
+  color: $color-primary-alt-light !important;
+}
+
+.luk-color--primary-alt-lightest:not(:focus) {
+  color: $color-primary-alt-lightest !important;
+}
+
+.luk-color--primary-alt-dark:not(:focus) {
+  color: $color-primary-alt-dark !important;
+}
+
+.luk-color--primary-alt-darkest:not(:focus) {
+  color: $color-primary-alt-darkest !important;
+}
+
+// gray
+.luk-color--gray:not(:focus) {
+  color: $color-gray !important;
+}
+
+.luk-color--gray-lightest:not(:focus) {
+  color: $color-gray-lightest !important;
+}
+
+.luk-color--gray-lighter:not(:focus) {
+  color: $color-gray-lighter !important;
+}
+
+.luk-color--gray-light:not(:focus) {
+  color: $color-gray-light !important;
+}
+
+.luk-color--muted:not(:focus) {
+  color: $color-muted !important;
+}
+
+// states
+.luk-color--error:not(:focus) {
+  color: $color-error !important;
+}
+
+.luk-color--error-dark:not(:focus) {
+  color: $color-error-dark !important;
+}
+
+.luk-color--error-darkest:not(:focus) {
+  color: $color-error-darkest !important;
+}
+
+.luk-color--error-light:not(:focus) {
+  color: $color-error-light !important;
+}
+
+.luk-color--success:not(:focus) {
+  color: $color-success !important;
+}
+
+// base colors
+.luk-color--base:not(:focus) {
+  color: $color-base !important;
+}
+
+.luk-color--base-inverse:not(:focus) {
+  color: $color-base-inverse !important;
+}
+
+.luk-color--muted-inverse:not(:focus) {
+  color: $color-muted-inverse !important;
+}
+
+.luk-color--black:not(:focus) {
+  color: $color-black !important;
+}
+
+.luk-color--white:not(:focus) {
+  color: $color-white !important;
+}
+
+.luk-color--inherit:not(:focus) {
+  color: inherit !important;
+}

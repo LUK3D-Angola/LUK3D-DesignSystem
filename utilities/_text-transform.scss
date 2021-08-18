@@ -1,0 +1,14 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+.luk-text-transform--uppercase {
+  text-transform: uppercase !important;
+}
+
+.luk-text-transform--lowercase {
+  text-transform: lowercase !important;
+}
+
+.luk-text-transform--capitalize {
+  text-transform: capitalize !important;
+}

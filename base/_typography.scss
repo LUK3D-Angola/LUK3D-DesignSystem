@@ -1,0 +1,161 @@
+/* stylelint-disable selector-class-pattern */
+@import '../settings/index.scss';
+
+// To Do: Remove the semantic classes h1, h2, h3, display, title, etc... after deprecating
+
+// Titles and headings
+.luk-display,
+.luk-title,
+.luk-h1,
+.luk-h2,
+.luk-h3,
+.luk-h4,
+.luk-h5,
+.luk-h6,
+.luk-text-heading--5xl,
+.luk-text-heading--4xl,
+.luk-text-heading--3xl,
+.luk-text-heading--2xl,
+.luk-text-heading--xl,
+.luk-text-heading--lg,
+.luk-text-heading--md,
+.luk-text-heading--sm {
+  line-height: $heading-line-height;
+  margin: 0;
+}
+
+// Bold title and headings
+.luk-display,
+.luk-h1,
+.luk-h2,
+.luk-h3,
+.luk-h4,
+.luk-text-heading--4xl,
+.luk-text-heading--3xl,
+.luk-text-heading--2xl,
+.luk-text-heading--xl,
+.luk-text-heading--lg {
+  font-weight: $font-bold;
+}
+
+// Headings
+.luk-h1,
+.luk-h2,
+.luk-h3,
+.luk-h4,
+.luk-h5,
+.luk-h6,
+.luk-text-heading--3xl,
+.luk-text-heading--2xl,
+.luk-text-heading--xl,
+.luk-text-heading--lg,
+.luk-text-heading--md,
+.luk-text-heading--sm {
+  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.luk-display,
+.luk-text-heading--5xl {
+  font-size: $font-size-3xl;
+
+  @media (min-width: $width-sm) {
+    font-size: $font-size-4xl;
+  }
+
+  @media (min-width: $width-md) {
+    font-size: $font-size-5xl;
+  }
+}
+
+.luk-title,
+.luk-text-heading--4xl {
+  font-size: $font-size-3xl;
+  font-weight: $font-normal;
+
+  @media (min-width: $width-md) {
+    font-size: $font-size-4xl;
+  }
+}
+
+.luk-h1,
+.luk-text-heading--3xl {
+  font-size: $h1-mobile-font-size;
+  font-weight: $font-normal;
+
+  @media (min-width: $width-md) {
+    font-size: $font-size-3xl;
+  }
+}
+
+.luk-h2,
+.luk-text-heading--2xl {
+  font-size: $font-size-2xl;
+}
+
+.luk-h3,
+.luk-text-heading--xl {
+  font-size: $font-size-xl;
+}
+
+.luk-h4,
+.luk-text-heading--lg {
+  font-size: $font-size-lg;
+}
+
+.luk-h5,
+.luk-text-heading--md {
+  font-size: $font-size-md;
+  font-weight: $font-bold;
+}
+
+.luk-h6,
+.luk-text-heading--sm {
+  color: $color-muted;
+  font-size: $font-size-sm;
+  font-weight: $font-normal;
+}
+
+.luk-base--inverse .luk-h6,
+.luk-base--inverse .luk-text-heading--sm {
+  color: $color-muted-inverse;
+}
+
+.luk-text,
+.luk-text--lead,
+.luk-text-body--lg,
+.luk-text-body--md {
+  line-height: $base-line-height;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.luk-text--lead,
+.luk-text-body--lg {
+  font-size: $font-size-lg;
+}
+
+.luk-text,
+.luk-text-body--md {
+  font-size: $base-font-size;
+}
+
+.luk-text-body--sm {
+  font-size: $font-size-sm;
+}

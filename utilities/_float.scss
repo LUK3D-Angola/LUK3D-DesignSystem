@@ -1,0 +1,36 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+.luk-float--left {
+  float: left !important;
+}
+
+.luk-float--right {
+  float: right !important;
+}
+
+.luk-float--none {
+  float: none !important;
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @media (min-width: $value) {
+    .luk-#{$breakpoint}-float--left {
+      float: left !important;
+    }
+
+    .luk-#{$breakpoint}-float--right {
+      float: right !important;
+    }
+
+    .luk-#{$breakpoint}-float--none {
+      float: none !important;
+    }
+  }
+}
+
+.luk-clearfix {
+  @include clearfix;
+}

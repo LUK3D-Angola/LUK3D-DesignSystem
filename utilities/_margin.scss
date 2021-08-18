@@ -1,0 +1,142 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+@for $i from 1 through length($spacers) {
+  $size: #{nth($spacers, $i)};
+  $scale: #{$i - 1};
+
+  // Example: ds-u-margin--0
+  .luk-margin--#{$scale} {
+    // Example: margin: 0 !important;
+    margin: #{$size} !important;
+  }
+
+  .luk-margin-top--#{$scale} {
+    margin-top: #{$size} !important;
+  }
+
+  .luk-margin-right--#{$scale} {
+    margin-right: #{$size} !important;
+  }
+
+  .luk-margin-bottom--#{$scale} {
+    margin-bottom: #{$size} !important;
+  }
+
+  .luk-margin-left--#{$scale} {
+    margin-left: #{$size} !important;
+  }
+
+  .luk-margin-x--#{$scale} {
+    margin-left: #{$size} !important;
+    margin-right: #{$size} !important;
+  }
+
+  .luk-margin-y--#{$scale} {
+    margin-bottom: #{$size} !important;
+    margin-top: #{$size} !important;
+  }
+}
+
+.luk-margin--auto {
+  margin: auto !important;
+}
+
+.luk-margin-top--auto {
+  margin-top: auto !important;
+}
+
+.luk-margin-right--auto {
+  margin-right: auto !important;
+}
+
+.luk-margin-bottom--auto {
+  margin-bottom: auto !important;
+}
+
+.luk-margin-left--auto {
+  margin-left: auto !important;
+}
+
+.luk-margin-x--auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.luk-margin-y--auto {
+  margin-bottom: auto !important;
+  margin-top: auto !important;
+}
+
+@each $breakpoint in map-keys($breakpoints) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @media (min-width: $value) {
+    @for $i from 1 through length($spacers) {
+      $size: #{nth($spacers, $i)};
+      $scale: #{$i - 1};
+
+      // Example: ds-u-sm-margin--0
+      .luk-#{$breakpoint}-margin--#{$scale} {
+        // Example: margin: 0 !important;
+        margin: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-top--#{$scale} {
+        margin-top: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-right--#{$scale} {
+        margin-right: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-bottom--#{$scale} {
+        margin-bottom: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-left--#{$scale} {
+        margin-left: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-x--#{$scale} {
+        margin-left: #{$size} !important;
+        margin-right: #{$size} !important;
+      }
+
+      .luk-#{$breakpoint}-margin-y--#{$scale} {
+        margin-bottom: #{$size} !important;
+        margin-top: #{$size} !important;
+      }
+    }
+
+    .luk-#{$breakpoint}-margin--auto {
+      margin: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-top--auto {
+      margin-top: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-right--auto {
+      margin-right: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-bottom--auto {
+      margin-bottom: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-left--auto {
+      margin-left: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-x--auto {
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .luk-#{$breakpoint}-margin-y--auto {
+      margin-bottom: auto !important;
+      margin-top: auto !important;
+    }
+  }
+}

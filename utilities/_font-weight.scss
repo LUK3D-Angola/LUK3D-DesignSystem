@@ -1,0 +1,14 @@
+/* stylelint-disable declaration-no-important */
+@import '../settings/index.scss';
+
+.luk-font-weight--normal {
+  font-weight: $font-normal !important;
+}
+
+.luk-font-weight--semibold {
+  font-weight: $font-semibold !important;
+}
+
+.luk-font-weight--bold {
+  font-weight: $font-bold !important;
+}
