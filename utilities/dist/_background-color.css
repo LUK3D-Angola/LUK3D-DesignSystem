@@ -1,7 +1,4 @@
 /* stylelint-disable declaration-no-important */
-@import '../settings/index.scss';
-
-// primary
 .lds-bg--primary {
   background-color: var(--color-primary);
 }
@@ -14,7 +11,6 @@
   background-color: var(--color-primary-darkest);
 }
 
-// primary-alt
 .lds-bg--primary-alt {
   background-color: var(--color-primary-alt);
 }
@@ -35,7 +31,6 @@
   background-color: var(--color-primary-alt-lightest);
 }
 
-// gray
 .lds-bg--gray-50 {
   background-color: var(--color-gray-50);
 }
@@ -76,10 +71,6 @@
   background-color: var(--color-gray-900);
 }
 
-
-
-
-// yellow
 .lds-bg--yellow-50 {
   background-color: var(--color-yellow-50);
 }
@@ -120,9 +111,6 @@
   background-color: var(--color-yellow-900);
 }
 
-
-
-// green
 .lds-bg--green-50 {
   background-color: var(--color-green-50);
 }
@@ -163,8 +151,6 @@
   background-color: var(--color-green-900);
 }
 
-
-// red
 .lds-bg--red-50 {
   background-color: var(--color-red-50);
 }
@@ -205,9 +191,6 @@
   background-color: var(--color-red-900);
 }
 
-
-
-// blue
 .lds-bg--blue-50 {
   background-color: var(--color-blue-50);
 }
@@ -248,12 +231,6 @@
   background-color: var(--color-blue-900);
 }
 
-
-
-
-
-
-// indigo
 .lds-bg--indigo-50 {
   background-color: var(--color-indigo-50);
 }
@@ -294,9 +271,6 @@
   background-color: var(--color-indigo-900);
 }
 
-
-
-// purple
 .lds-bg--purple-50 {
   background-color: var(--color-purple-50);
 }
@@ -337,11 +311,6 @@
   background-color: var(--color-purple-900);
 }
 
-
-
-
-
-// pink
 .lds-bg--pink-50 {
   background-color: var(--color-pink-50);
 }
@@ -382,12 +351,6 @@
   background-color: var(--color-pink-900);
 }
 
-
-
-
-
-// State color - error
-
 .lds-bg--error {
   background-color: var(--color-error);
 }
@@ -415,8 +378,6 @@
 .lds-bg--error-darkest {
   background-color: var(--color-error-darkest);
 }
-
-// State color - warn
 
 .lds-bg--warn {
   background-color: var(--color-warn);
@@ -446,8 +407,6 @@
   background-color: var(--color-warn-darkest);
 }
 
-// State color - success
-
 .lds-bg--success {
   background-color: var(--color-success);
 }
@@ -476,7 +435,6 @@
   background-color: var(--color-success-darkest);
 }
 
-// base colors
 .lds-bg--base {
   background-color: var(--color-base);
 }
@@ -501,7 +459,6 @@
   background-color: transparent !important;
 }
 
-// Focus colors
 .lds-bg--focus-color-light {
   background-color: var(--color-focus-light);
 }
@@ -509,7 +466,7 @@
 .lds-bg--focus-color-dark {
   background-color: var(--color-focus-dark);
 }
-// Deprecated Focus colors
+
 .lds-bg--focus-color {
   background-color: var(--focus-color);
 }

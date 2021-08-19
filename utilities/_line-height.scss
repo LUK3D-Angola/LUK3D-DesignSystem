@@ -1,18 +1,18 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.luk-leading--base {
+.lds-leading--base {
   line-height: $base-line-height !important;
 }
 
-.luk-leading--lead {
+.lds-leading--lead {
   line-height: $lead-line-height !important;
 }
 
-.luk-leading--heading {
+.lds-leading--heading {
   line-height: $heading-line-height !important;
 }
 
-.luk-leading--reset {
+.lds-leading--reset {
   line-height: $reset-line-height !important;
 }

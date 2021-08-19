@@ -1,5 +1,5 @@
 @mixin ds-unstyled-list {
-  list-style: none;
+  list-style: none !important;
   margin: 0;
   padding: 0;
 }

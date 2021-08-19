@@ -5,7 +5,7 @@
 /**
  *  Grid container
  */
-.luk-l-container {
+.lds-container {
   margin-left: auto;
   margin-right: auto;
   max-width: $site-max-width;
@@ -21,18 +21,18 @@
 /**
  *  Grid row
  */
-.luk-l-row,
-.luk-l-form-row {
+.lds-row,
+.lds-form-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.luk-l-row {
+.lds-row {
   margin-left: ($grid-gutter-width / -2);
   margin-right: ($grid-gutter-width / -2);
 }
 
-.luk-l-form-row {
+.lds-form-row {
   margin-left: ($grid-form-gutter-width / -2);
   margin-right: ($grid-form-gutter-width / -2);
 }
@@ -55,27 +55,27 @@
 
 @for $i from 1 through $grid-columns {
   // Example: ds-l-col--6
-  .luk-l-col--#{$i} {
+  .lds-col--#{$i} {
     @extend %grid-column;
   }
 }
 
-.luk-l-col,
-.luk-l-col--auto {
+.lds-col,
+.lds-col--auto {
   @extend %grid-column;
 }
 
-.luk-l-col {
+.lds-col {
   @include equal-width-flexbox-col;
 }
 
-.luk-l-col--auto {
+.lds-col--auto {
   @include auto-width-flexbox-col;
 }
 
 @for $i from 1 through $grid-columns {
   // Example: ds-l-col--12
-  .luk-l-col--#{$i} {
+  .lds-col--#{$i} {
     @include flexbox-col($i);
   }
 }
@@ -86,34 +86,34 @@
   // Allow columns to stretch full width below their breakpoints
   @for $i from 1 through $grid-columns {
     // Example: ds-l-lg-col--12
-    .luk-l-#{$breakpoint}-col--#{$i} {
+    .lds-#{$breakpoint}-col--#{$i} {
       @extend %grid-column;
     }
   }
 
-  .luk-l-#{$breakpoint}-col--auto {
+  .lds-#{$breakpoint}-col--auto {
     @extend %grid-column;
   }
 
   // Example: ds-l-lg-col
-  .luk-l-#{$breakpoint}-col {
+  .lds-#{$breakpoint}-col {
     @extend %grid-column;
   }
 
   @media (min-width: $value) {
     // Provide breakpoint classes for equal-width columns
     // Example: ds-l-lg-col
-    .luk-l-#{$breakpoint}-col {
+    .lds-#{$breakpoint}-col {
       @include equal-width-flexbox-col;
     }
 
-    .luk-l-#{$breakpoint}-col--auto {
+    .lds-#{$breakpoint}-col--auto {
       @include auto-width-flexbox-col;
     }
 
     @for $i from 1 through $grid-columns {
       // Example: ds-l-lg-col--12
-      .luk-l-#{$breakpoint}-col--#{$i} {
+      .lds-#{$breakpoint}-col--#{$i} {
         @include flexbox-col($i);
       }
     }
@@ -121,8 +121,8 @@
 }
 
 // Overwrite default padding in a form-row so fields are closer
-.luk-l-form-row > .luk-l-col,
-.luk-l-form-row > [class*='-col-'] {
+.lds-form-row > .lds-col,
+.lds-form-row > [class*='-col-'] {
   padding-left: $grid-form-gutter-width / 2;
   padding-right: $grid-form-gutter-width / 2;
 }

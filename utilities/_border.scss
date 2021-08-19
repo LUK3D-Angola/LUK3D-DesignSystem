@@ -3,109 +3,109 @@
 
 @for $i from 1 through 2 {
   // Example: ds-u-border--1
-  .luk-border--#{$i} {
+  .lds-border--#{$i} {
     // Example: border: 1px !important;
     border: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-top--#{$i} {
+  .lds-border-top--#{$i} {
     border-top: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-right--#{$i} {
+  .lds-border-right--#{$i} {
     border-right: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-bottom--#{$i} {
+  .lds-border-bottom--#{$i} {
     border-bottom: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-left--#{$i} {
+  .lds-border-left--#{$i} {
     border-left: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-x--#{$i} {
+  .lds-border-x--#{$i} {
     border-left: #{$i}px solid $border-color !important;
     border-right: #{$i}px solid $border-color !important;
   }
 
-  .luk-border-y--#{$i} {
+  .lds-border-y--#{$i} {
     border-bottom: #{$i}px solid $border-color !important;
     border-top: #{$i}px solid $border-color !important;
   }
 }
 
-.luk-border--0 {
+.lds-border--0 {
   // Example: border: 1px !important;
   border: 0 !important;
 }
 
-.luk-border-top--0 {
+.lds-border-top--0 {
   border-top: 0 !important;
 }
 
-.luk-border-right--0 {
+.lds-border-right--0 {
   border-right: 0 !important;
 }
 
-.luk-border-bottom--0 {
+.lds-border-bottom--0 {
   border-bottom: 0 !important;
 }
 
-.luk-border-left--0 {
+.lds-border-left--0 {
   border-left: 0 !important;
 }
 
-.luk-border-x--0 {
+.lds-border-x--0 {
   border-left: 0 !important;
   border-right: 0 !important;
 }
 
-.luk-border-y--0 {
+.lds-border-y--0 {
   border-bottom: 0 !important;
   border-top: 0 !important;
 }
 
-.luk-border--dark {
+.lds-border--dark {
   border-color: $border-color-dark !important;
 }
 
-.luk-border--inverse {
+.lds-border--inverse {
   border-color: $border-color-inverse !important;
 }
 
-.luk-border--error {
+.lds-border--error {
   border-color: $color-error !important;
 }
 
-.luk-border--error-light {
+.lds-border--error-light {
   border-color: $color-error-light !important;
 }
 
-.luk-border--error-lighter {
+.lds-border--error-lighter {
   border-color: $color-error-lighter !important;
 }
 
-.luk-border--warn {
+.lds-border--warn {
   border-color: $color-warn !important;
 }
 
-.luk-border--warn-light {
+.lds-border--warn-light {
   border-color: $color-warn-light !important;
 }
 
-.luk-border--warn-lighter {
+.lds-border--warn-lighter {
   border-color: $color-warn-lighter !important;
 }
 
-.luk-border--success {
+.lds-border--success {
   border-color: $color-success !important;
 }
 
-.luk-border--success-light {
+.lds-border--success-light {
   border-color: $color-success-light !important;
 }
 
-.luk-border--success-lighter {
+.lds-border--success-lighter {
   border-color: $color-success-lighter !important;
 }

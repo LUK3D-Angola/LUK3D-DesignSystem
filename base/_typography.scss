@@ -4,53 +4,53 @@
 // To Do: Remove the semantic classes h1, h2, h3, display, title, etc... after deprecating
 
 // Titles and headings
-.luk-display,
-.luk-title,
-.luk-h1,
-.luk-h2,
-.luk-h3,
-.luk-h4,
-.luk-h5,
-.luk-h6,
-.luk-text-heading--5xl,
-.luk-text-heading--4xl,
-.luk-text-heading--3xl,
-.luk-text-heading--2xl,
-.luk-text-heading--xl,
-.luk-text-heading--lg,
-.luk-text-heading--md,
-.luk-text-heading--sm {
+.lds-display,
+.lds-title,
+.lds-h1,
+.lds-h2,
+.lds-h3,
+.lds-h4,
+.lds-h5,
+.lds-h6,
+.lds-text-heading--5xl,
+.lds-text-heading--4xl,
+.lds-text-heading--3xl,
+.lds-text-heading--2xl,
+.lds-text-heading--xl,
+.lds-text-heading--lg,
+.lds-text-heading--md,
+.lds-text-heading--sm {
   line-height: $heading-line-height;
   margin: 0;
 }
 
 // Bold title and headings
-.luk-display,
-.luk-h1,
-.luk-h2,
-.luk-h3,
-.luk-h4,
-.luk-text-heading--4xl,
-.luk-text-heading--3xl,
-.luk-text-heading--2xl,
-.luk-text-heading--xl,
-.luk-text-heading--lg {
+.lds-display,
+.lds-h1,
+.lds-h2,
+.lds-h3,
+.lds-h4,
+.lds-text-heading--4xl,
+.lds-text-heading--3xl,
+.lds-text-heading--2xl,
+.lds-text-heading--xl,
+.lds-text-heading--lg {
   font-weight: $font-bold;
 }
 
 // Headings
-.luk-h1,
-.luk-h2,
-.luk-h3,
-.luk-h4,
-.luk-h5,
-.luk-h6,
-.luk-text-heading--3xl,
-.luk-text-heading--2xl,
-.luk-text-heading--xl,
-.luk-text-heading--lg,
-.luk-text-heading--md,
-.luk-text-heading--sm {
+.lds-h1,
+.lds-h2,
+.lds-h3,
+.lds-h4,
+.lds-h5,
+.lds-h6,
+.lds-text-heading--3xl,
+.lds-text-heading--2xl,
+.lds-text-heading--xl,
+.lds-text-heading--lg,
+.lds-text-heading--md,
+.lds-text-heading--sm {
   margin-bottom: 0.5em;
   margin-top: 1.5em;
 
@@ -63,8 +63,8 @@
   }
 }
 
-.luk-display,
-.luk-text-heading--5xl {
+.lds-display,
+.lds-text-heading--5xl {
   font-size: $font-size-3xl;
 
   @media (min-width: $width-sm) {
@@ -76,8 +76,8 @@
   }
 }
 
-.luk-title,
-.luk-text-heading--4xl {
+.lds-title,
+.lds-text-heading--4xl {
   font-size: $font-size-3xl;
   font-weight: $font-normal;
 
@@ -86,8 +86,8 @@
   }
 }
 
-.luk-h1,
-.luk-text-heading--3xl {
+.lds-h1,
+.lds-text-heading--3xl {
   font-size: $h1-mobile-font-size;
   font-weight: $font-normal;
 
@@ -96,43 +96,43 @@
   }
 }
 
-.luk-h2,
-.luk-text-heading--2xl {
+.lds-h2,
+.lds-text-heading--2xl {
   font-size: $font-size-2xl;
 }
 
-.luk-h3,
-.luk-text-heading--xl {
+.lds-h3,
+.lds-text-heading--xl {
   font-size: $font-size-xl;
 }
 
-.luk-h4,
-.luk-text-heading--lg {
+.lds-h4,
+.lds-text-heading--lg {
   font-size: $font-size-lg;
 }
 
-.luk-h5,
-.luk-text-heading--md {
+.lds-h5,
+.lds-text-heading--md {
   font-size: $font-size-md;
   font-weight: $font-bold;
 }
 
-.luk-h6,
-.luk-text-heading--sm {
+.lds-h6,
+.lds-text-heading--sm {
   color: $color-muted;
   font-size: $font-size-sm;
   font-weight: $font-normal;
 }
 
-.luk-base--inverse .luk-h6,
-.luk-base--inverse .luk-text-heading--sm {
+.lds-base--inverse .lds-h6,
+.lds-base--inverse .lds-text-heading--sm {
   color: $color-muted-inverse;
 }
 
-.luk-text,
-.luk-text--lead,
-.luk-text-body--lg,
-.luk-text-body--md {
+.lds-text,
+.lds-text--lead,
+.lds-text-body--lg,
+.lds-text-body--md {
   line-height: $base-line-height;
   margin-bottom: 1em;
   margin-top: 1em;
@@ -146,16 +146,16 @@
   }
 }
 
-.luk-text--lead,
-.luk-text-body--lg {
+.lds-text--lead,
+.lds-text-body--lg {
   font-size: $font-size-lg;
 }
 
-.luk-text,
-.luk-text-body--md {
+.lds-text,
+.lds-text-body--md {
   font-size: $base-font-size;
 }
 
-.luk-text-body--sm {
+.lds-text-body--sm {
   font-size: $font-size-sm;
 }

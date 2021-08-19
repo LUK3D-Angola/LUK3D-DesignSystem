@@ -1,15 +1,15 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.luk-float--left {
+.lds-float--left {
   float: left !important;
 }
 
-.luk-float--right {
+.lds-float--right {
   float: right !important;
 }
 
-.luk-float--none {
+.lds-float--none {
   float: none !important;
 }
 
@@ -17,20 +17,20 @@
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .luk-#{$breakpoint}-float--left {
+    .lds-#{$breakpoint}-float--left {
       float: left !important;
     }
 
-    .luk-#{$breakpoint}-float--right {
+    .lds-#{$breakpoint}-float--right {
       float: right !important;
     }
 
-    .luk-#{$breakpoint}-float--none {
+    .lds-#{$breakpoint}-float--none {
       float: none !important;
     }
   }
 }
 
-.luk-clearfix {
+.lds-clearfix {
   @include clearfix;
 }

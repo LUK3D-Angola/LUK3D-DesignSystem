@@ -6,33 +6,33 @@
   $scale: #{$i - 1};
 
   // Example: ds-u-p--0
-  .luk-p--#{$scale} {
+  .lds-p--#{$scale} {
     // Example: padding: 0 !important;
     padding: #{$size} !important;
   }
 
-  .luk-p-top--#{$scale} {
+  .lds-p-top--#{$scale} {
     padding-top: #{$size} !important;
   }
 
-  .luk-p-right--#{$scale} {
+  .lds-p-right--#{$scale} {
     padding-right: #{$size} !important;
   }
 
-  .luk-p-bottom--#{$scale} {
+  .lds-p-bottom--#{$scale} {
     padding-bottom: #{$size} !important;
   }
 
-  .luk-p-left--#{$scale} {
+  .lds-p-left--#{$scale} {
     padding-left: #{$size} !important;
   }
 
-  .luk-p-x--#{$scale} {
+  .lds-p-x--#{$scale} {
     padding-left: #{$size} !important;
     padding-right: #{$size} !important;
   }
 
-  .luk-p-y--#{$scale} {
+  .lds-p-y--#{$scale} {
     padding-bottom: #{$size} !important;
     padding-top: #{$size} !important;
   }
@@ -47,33 +47,33 @@
       $scale: #{$i - 1};
 
       // Example: ds-u-sm-p--0
-      .luk-#{$breakpoint}-p--#{$scale} {
+      .lds-#{$breakpoint}-p--#{$scale} {
         // Example: padding: 0 !important;
         padding: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-top--#{$scale} {
+      .lds-#{$breakpoint}-p-top--#{$scale} {
         padding-top: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-right--#{$scale} {
+      .lds-#{$breakpoint}-p-right--#{$scale} {
         padding-right: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-bottom--#{$scale} {
+      .lds-#{$breakpoint}-p-bottom--#{$scale} {
         padding-bottom: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-left--#{$scale} {
+      .lds-#{$breakpoint}-p-left--#{$scale} {
         padding-left: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-x--#{$scale} {
+      .lds-#{$breakpoint}-p-x--#{$scale} {
         padding-left: #{$size} !important;
         padding-right: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-p-y--#{$scale} {
+      .lds-#{$breakpoint}-p-y--#{$scale} {
         padding-bottom: #{$size} !important;
         padding-top: #{$size} !important;
       }

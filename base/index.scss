@@ -1,4 +1,10 @@
 // Base Sass
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @import 'body.scss';
 @import 'icons.scss';
 @import 'link.scss';

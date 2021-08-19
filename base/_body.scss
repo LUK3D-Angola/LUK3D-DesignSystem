@@ -7,12 +7,12 @@
   line-height: $base-line-height;
 }
 
-.luk-base {
+.lds-base {
   @extend %ds-base;
   color: $color-base;
 }
 
-.luk-base--inverse {
+.lds-base--inverse {
   @extend %ds-base;
   background-color: $color-background-inverse;
   color: $color-base-inverse;

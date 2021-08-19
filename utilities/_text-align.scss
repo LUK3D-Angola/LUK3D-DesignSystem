@@ -24,15 +24,15 @@ Markup:
 
 Style guide: utilities.text-align
 */
-.luk-text-align--center {
+.lds-text-align--center {
   text-align: center !important;
 }
 
-.luk-text-align--left {
+.lds-text-align--left {
   text-align: left !important;
 }
 
-.luk-text-align--right {
+.lds-text-align--right {
   text-align: right !important;
 }
 
@@ -54,15 +54,15 @@ Style guide: utilities.text-align.responsive
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .luk-#{$breakpoint}-text-align--center {
+    .lds-#{$breakpoint}-text-align--center {
       text-align: center !important;
     }
 
-    .luk-#{$breakpoint}-text-align--left {
+    .lds-#{$breakpoint}-text-align--left {
       text-align: left !important;
     }
 
-    .luk-#{$breakpoint}-text-align--right {
+    .lds-#{$breakpoint}-text-align--right {
       text-align: right !important;
     }
   }

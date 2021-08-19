@@ -1,295 +1,372 @@
 /* stylelint-disable declaration-no-important */
-@import "../settings/index.scss";
-
-// TODO: Example border radius utilities and make utility format consistent
 .lds-radius {
-  border-radius: $border-radius;
+  border-radius: 3px;
 }
 
 .lds-radius--pill {
-  border-radius: $border-radius-pill;
+  border-radius: 9999px;
 }
 
 .lds-radius--circle {
-  border-radius: $border-radius-circle;
+  border-radius: 100%;
 }
 
 .lds-rounded-none {
   border-radius: 0px;
 }
+
 .lds-rounded-sm {
   border-radius: 0.125rem;
 }
+
 ldslds-rounded {
   border-radius: 0.25rem;
 }
+
 .lds-rounded-md {
   border-radius: 0.375rem;
 }
+
 .lds-rounded-lg {
   border-radius: 0.5rem;
 }
+
 .lds-rounded-xl {
   border-radius: 0.75rem;
 }
+
 .lds-rounded-2xl {
   border-radius: 1rem;
 }
+
 .lds-rounded-3xl {
   border-radius: 1.5rem;
 }
+
 .lds-rounded-full {
   border-radius: 9999px;
 }
+
 .lds-rounded-t-none {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
+
 .lds-rounded-t-sm {
   border-top-left-radius: 0.125rem;
   border-top-right-radius: 0.125rem;
 }
+
 .lds-rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
+
 .lds-rounded-t-md {
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
 }
+
 .lds-rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
+
 .lds-rounded-t-xl {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
+
 .lds-rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
+
 .lds-rounded-t-3xl {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
+
 .lds-rounded-t-full {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
 }
+
 .lds-rounded-r-none {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
+
 .lds-rounded-r-sm {
   border-top-right-radius: 0.125rem;
   border-bottom-right-radius: 0.125rem;
 }
+
 .lds-rounded-r {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
+
 .lds-rounded-r-md {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
 }
+
 .lds-rounded-r-lg {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
+
 .lds-rounded-r-xl {
   border-top-right-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
 }
+
 .lds-rounded-r-2xl {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
 .lds-rounded-r-3xl {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
+
 .lds-rounded-r-full {
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
+
 .lds-rounded-b-none {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
 .lds-rounded-b-sm {
   border-bottom-right-radius: 0.125rem;
   border-bottom-left-radius: 0.125rem;
 }
+
 .lds-rounded-b {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
+
 .lds-rounded-b-md {
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
+
 .lds-rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
+
 .lds-rounded-b-xl {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
+
 .lds-rounded-b-2xl {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+
 .lds-rounded-b-3xl {
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
+
 .lds-rounded-b-full {
   border-bottom-right-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
+
 .lds-rounded-l-none {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
+
 .lds-rounded-l-sm {
   border-top-left-radius: 0.125rem;
   border-bottom-left-radius: 0.125rem;
 }
+
 .lds-rounded-l {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
+
 .lds-rounded-l-md {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
+
 .lds-rounded-l-lg {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
+
 .lds-rounded-l-xl {
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
+
 .lds-rounded-l-2xl {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
+
 .lds-rounded-l-3xl {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
+
 .lds-rounded-l-full {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
+
 .lds-rounded-tl-none {
   border-top-left-radius: 0px;
 }
+
 .lds-rounded-tl-sm {
   border-top-left-radius: 0.125rem;
 }
+
 .lds-rounded-tl {
   border-top-left-radius: 0.25rem;
 }
+
 .lds-rounded-tl-md {
   border-top-left-radius: 0.375rem;
 }
+
 .lds-rounded-tl-lg {
   border-top-left-radius: 0.5rem;
 }
+
 .lds-rounded-tl-xl {
   border-top-left-radius: 0.75rem;
 }
+
 .lds-rounded-tl-2xl {
   border-top-left-radius: 1rem;
 }
+
 .lds-rounded-tl-3xl {
   border-top-left-radius: 1.5rem;
 }
+
 .lds-rounded-tl-full {
   border-top-left-radius: 9999px;
 }
+
 .lds-rounded-tr-none {
   border-top-right-radius: 0px;
 }
+
 .lds-rounded-tr-sm {
   border-top-right-radius: 0.125rem;
 }
+
 .lds-rounded-tr {
   border-top-right-radius: 0.25rem;
 }
+
 .lds-rounded-tr-md {
   border-top-right-radius: 0.375rem;
 }
+
 .lds-rounded-tr-lg {
   border-top-right-radius: 0.5rem;
 }
+
 .lds-rounded-tr-xl {
   border-top-right-radius: 0.75rem;
 }
+
 .lds-rounded-tr-2xl {
   border-top-right-radius: 1rem;
 }
+
 .lds-rounded-tr-3xl {
   border-top-right-radius: 1.5rem;
 }
+
 .lds-rounded-tr-full {
   border-top-right-radius: 9999px;
 }
+
 .lds-rounded-br-none {
   border-bottom-right-radius: 0px;
 }
+
 .lds-rounded-br-sm {
   border-bottom-right-radius: 0.125rem;
 }
+
 .lds-rounded-br {
   border-bottom-right-radius: 0.25rem;
 }
+
 .lds-rounded-br-md {
   border-bottom-right-radius: 0.375rem;
 }
+
 .lds-rounded-br-lg {
   border-bottom-right-radius: 0.5rem;
 }
+
 .lds-rounded-br-xl {
   border-bottom-right-radius: 0.75rem;
 }
+
 .lds-rounded-br-2xl {
   border-bottom-right-radius: 1rem;
 }
+
 .lds-rounded-br-3xl {
   border-bottom-right-radius: 1.5rem;
 }
+
 .lds-rounded-br-full {
   border-bottom-right-radius: 9999px;
 }
+
 .lds-rounded-bl-none {
   border-bottom-left-radius: 0px;
 }
+
 .lds-rounded-bl-sm {
   border-bottom-left-radius: 0.125rem;
 }
+
 .lds-rounded-bl {
   border-bottom-left-radius: 0.25rem;
 }
+
 .lds-rounded-bl-md {
   border-bottom-left-radius: 0.375rem;
 }
+
 .lds-rounded-bl-lg {
   border-bottom-left-radius: 0.5rem;
 }
+
 .lds-rounded-bl-xl {
   border-bottom-left-radius: 0.75rem;
 }
+
 .lds-rounded-bl-2xl {
   border-bottom-left-radius: 1rem;
 }
+
 .lds-rounded-bl-3xl {
   border-bottom-left-radius: 1.5rem;
 }
+
 .lds-rounded-bl-full {
   border-bottom-left-radius: 9999px;
 }
