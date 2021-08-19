@@ -5,34 +5,34 @@
   $size: #{nth($spacers, $i)};
   $scale: #{$i - 1};
 
-  // Example: ds-u-padding--0
-  .luk-padding--#{$scale} {
+  // Example: ds-u-p--0
+  .luk-p--#{$scale} {
     // Example: padding: 0 !important;
     padding: #{$size} !important;
   }
 
-  .luk-padding-top--#{$scale} {
+  .luk-p-top--#{$scale} {
     padding-top: #{$size} !important;
   }
 
-  .luk-padding-right--#{$scale} {
+  .luk-p-right--#{$scale} {
     padding-right: #{$size} !important;
   }
 
-  .luk-padding-bottom--#{$scale} {
+  .luk-p-bottom--#{$scale} {
     padding-bottom: #{$size} !important;
   }
 
-  .luk-padding-left--#{$scale} {
+  .luk-p-left--#{$scale} {
     padding-left: #{$size} !important;
   }
 
-  .luk-padding-x--#{$scale} {
+  .luk-p-x--#{$scale} {
     padding-left: #{$size} !important;
     padding-right: #{$size} !important;
   }
 
-  .luk-padding-y--#{$scale} {
+  .luk-p-y--#{$scale} {
     padding-bottom: #{$size} !important;
     padding-top: #{$size} !important;
   }
@@ -46,34 +46,34 @@
       $size: #{nth($spacers, $i)};
       $scale: #{$i - 1};
 
-      // Example: ds-u-sm-padding--0
-      .luk-#{$breakpoint}-padding--#{$scale} {
+      // Example: ds-u-sm-p--0
+      .luk-#{$breakpoint}-p--#{$scale} {
         // Example: padding: 0 !important;
         padding: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-top--#{$scale} {
+      .luk-#{$breakpoint}-p-top--#{$scale} {
         padding-top: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-right--#{$scale} {
+      .luk-#{$breakpoint}-p-right--#{$scale} {
         padding-right: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-bottom--#{$scale} {
+      .luk-#{$breakpoint}-p-bottom--#{$scale} {
         padding-bottom: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-left--#{$scale} {
+      .luk-#{$breakpoint}-p-left--#{$scale} {
         padding-left: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-x--#{$scale} {
+      .luk-#{$breakpoint}-p-x--#{$scale} {
         padding-left: #{$size} !important;
         padding-right: #{$size} !important;
       }
 
-      .luk-#{$breakpoint}-padding-y--#{$scale} {
+      .luk-#{$breakpoint}-p-y--#{$scale} {
         padding-bottom: #{$size} !important;
         padding-top: #{$size} !important;
       }

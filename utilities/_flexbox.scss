@@ -10,8 +10,8 @@ $_flex-direction-values: (
 
 @each $name in map-keys($_flex-direction-values) {
   $value: map-get($_flex-direction-values, $name);
-  // Example: .luk-flex-direction--column
-  .luk-flex-direction--#{$name} {
+  // Example: .luk-flex-d--column
+  .luk-flex-d--#{$name} {
     // Example: flex-direction: column
     flex-direction: $value !important;
   }
@@ -23,8 +23,8 @@ $_flex-direction-values: (
   @media (min-width: $viewport) {
     @each $name in map-keys($_flex-direction-values) {
       $value: map-get($_flex-direction-values, $name);
-      // Example: .luk-lg-flex-direction--column
-      .luk-#{$breakpoint}-flex-direction--#{$name} {
+      // Example: .luk-lg-flex-d--column
+      .luk-#{$breakpoint}-flex-d--#{$name} {
         // Example: flex-direction: column
         flex-direction: $value !important;
       }

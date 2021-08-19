@@ -1,23 +1,23 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.luk-display--block {
+.luk-d--block {
   display: block !important;
 }
 
-.luk-display--inline-block {
+.luk-d--inline-block {
   display: inline-block !important;
 }
 
-.luk-display--inline {
+.luk-d--inline {
   display: inline !important;
 }
 
-.luk-display--flex {
+.luk-d--flex {
   display: flex !important;
 }
 
-.luk-display--none {
+.luk-d--none {
   display: none !important;
 }
 
@@ -51,19 +51,19 @@
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .luk-#{$breakpoint}-display--block {
+    .luk-#{$breakpoint}-d--block {
       display: block !important;
     }
 
-    .luk-#{$breakpoint}-display--inline-block {
+    .luk-#{$breakpoint}-d--inline-block {
       display: inline-block !important;
     }
 
-    .luk-#{$breakpoint}-display--flex {
+    .luk-#{$breakpoint}-d--flex {
       display: flex !important;
     }
 
-    .luk-#{$breakpoint}-display--none {
+    .luk-#{$breakpoint}-d--none {
       display: none !important;
     }
 
