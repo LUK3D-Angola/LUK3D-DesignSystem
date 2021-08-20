@@ -38,6 +38,45 @@
   }
 }
 
+
+@for $i from 1 through length($spacers) {
+  $size: #{nth($spacers, $i)};
+  $scale: #{$i - 1};
+
+  // Example: ds-u-margin--0
+  .lds-m--n#{$scale} {
+    // Example: margin: 0 !important;
+    margin: -#{$size} !important;
+  }
+
+  .lds-m-top--n#{$scale} {
+    margin-top: -#{$size} !important;
+  }
+
+  .lds-m-right--n#{$scale} {
+    margin-right: -#{$size} !important;
+  }
+
+  .lds-m-bottom--n#{$scale} {
+    margin-bottom: -#{$size} !important;
+  }
+
+  .lds-m-left--n#{$scale} {
+    margin-left: -#{$size} !important;
+  }
+
+  .lds-m-x--n#{$scale} {
+    margin-left: -#{$size} !important;
+    margin-right: -#{$size} !important;
+  }
+
+  .lds-m-y--n#{$scale} {
+    margin-bottom: -#{$size} !important;
+    margin-top: -#{$size} !important;
+  }
+}
+
+
 .lds-m--auto {
   margin: auto !important;
 }

@@ -1,0 +1,36 @@
+/* stylelint-disable declaration-no-important */
+.lds-font--thin {
+  font-weight: 100;
+}
+
+.lds-font--extralight {
+  font-weight: 200;
+}
+
+.lds-font--light {
+  font-weight: 300;
+}
+
+.lds-font--normal {
+  font-weight: 400;
+}
+
+.lds-font--medium {
+  font-weight: 500;
+}
+
+.lds-font--semibold {
+  font-weight: 600;
+}
+
+.lds-font--bold {
+  font-weight: 700;
+}
+
+.lds-font--extrabold {
+  font-weight: 800;
+}
+
+.lds-font--black {
+  font-weight: 900;
+}

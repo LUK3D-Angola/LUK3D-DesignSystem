@@ -1,8 +1,11 @@
 // Generic
 :root {
     --color-white: #fff ;
+    --color-shadow: hsla(0, 0%, 0%, .015) ;
+    --color-shadow-sm: hsla(0, 0%, 0%, .075) ;
+    --color-shadow-lg: hsla(0, 0%, 0%, .175) ;
     --color-base: #212121 ;
-    --color-black: #000 ;
+    --color-black: #000000 ;
 
     --color-gray-50:  rgba(249, 250, 251, 1); 
     --color-gray-100: rgba(243, 244, 246, 1); 

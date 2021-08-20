@@ -1,14 +1,12 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.lds-font-weight--normal {
-  font-weight: $font-normal !important;
-}
-
-.lds-font-weight--semibold {
-  font-weight: $font-semibold !important;
-}
-
-.lds-font-weight--bold {
-  font-weight: $font-bold !important;
-}
+.lds-font--thin{	font-weight: 100;}
+.lds-font--extralight{	font-weight: 200;}
+.lds-font--light{	font-weight: 300;}
+.lds-font--normal{	font-weight: 400;}
+.lds-font--medium{	font-weight: 500;}
+.lds-font--semibold{	font-weight: 600;}
+.lds-font--bold{	font-weight: 700;}
+.lds-font--extrabold{	font-weight: 800;}
+.lds-font--black{	font-weight: 900;}
