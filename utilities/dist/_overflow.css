@@ -1,13 +1,12 @@
 /* stylelint-disable declaration-no-important */
-
-[luk~="overflow--hidden"] {
+[luk~=overflow--hidden] {
   overflow: hidden !important;
 }
 
-[luk~="overflow--scroll"] {
+[luk~=overflow--scroll] {
   overflow: scroll !important;
 }
 
-[luk~="overflow--auto"] {
+[luk~=overflow--auto] {
   overflow: auto !important;
 }

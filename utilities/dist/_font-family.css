@@ -1,0 +1,8 @@
+/* stylelint-disable declaration-no-important */
+[luk~=sans] {
+  font-family: "Open Sans", Helvetica, sans-serif !important;
+}
+
+[luk~=serif] {
+  font-family: Bitter, Georgia, serif !important;
+}

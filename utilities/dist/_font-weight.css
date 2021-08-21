@@ -1,36 +1,36 @@
 /* stylelint-disable declaration-no-important */
-.lds-font--thin {
+[luk~=font--thin] {
   font-weight: 100;
 }
 
-.lds-font--extralight {
+[luk~=font--extralight] {
   font-weight: 200;
 }
 
-.lds-font--light {
+[luk~=font--light] {
   font-weight: 300;
 }
 
-.lds-font--normal {
+[luk~=font--normal] {
   font-weight: 400;
 }
 
-.lds-font--medium {
+[luk~=font--medium] {
   font-weight: 500;
 }
 
-.lds-font--semibold {
+[luk~=font--semibold] {
   font-weight: 600;
 }
 
-.lds-font--bold {
+[luk~=font--bold] {
   font-weight: 700;
 }
 
-.lds-font--extrabold {
+[luk~=font--extrabold] {
   font-weight: 800;
 }
 
-.lds-font--black {
+[luk~=font--black] {
   font-weight: 900;
 }

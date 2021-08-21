@@ -10,8 +10,8 @@ $_flex-direction-values: (
 
 @each $name in map-keys($_flex-direction-values) {
   $value: map-get($_flex-direction-values, $name);
-  // Example: .lds-flex--column
-  .lds-flex--#{$name} {
+  // Example: [luk~="flex--column
+  [luk~="flex--#{$name}"] {
     // Example: flex-direction: column
     flex-direction: $value !important;
   }
@@ -23,8 +23,8 @@ $_flex-direction-values: (
   @media (min-width: $viewport) {
     @each $name in map-keys($_flex-direction-values) {
       $value: map-get($_flex-direction-values, $name);
-      // Example: .lds-lg-flex--column
-      .lds-#{$breakpoint}-flex--#{$name} {
+      // Example: [luk~="lg-flex--column
+      [luk~="#{$breakpoint}-flex--#{$name}"] {
         // Example: flex-direction: column
         flex-direction: $value !important;
       }
@@ -42,8 +42,8 @@ $_justify-content-values: (
 
 @each $name in map-keys($_justify-content-values) {
   $value: map-get($_justify-content-values, $name);
-  // Example: .lds-justify-content--start
-  .lds-justify-content--#{$name} {
+  // Example: [luk~="justify-content--start
+  [luk~="justify-content--#{$name}"] {
     // Example: justify-content: flex-start
     justify-content: $value !important;
   }
@@ -55,8 +55,8 @@ $_justify-content-values: (
   @media (min-width: $viewport) {
     @each $name in map-keys($_justify-content-values) {
       $value: map-get($_justify-content-values, $name);
-      // Example: .lds-lg-justify-content--start
-      .lds-#{$breakpoint}-justify-content--#{$name} {
+      // Example: [luk~="lg-justify-content--start
+      [luk~="#{$breakpoint}-justify-content--#{$name}"] {
         // Example: justify-content: flex-start
         justify-content: $value !important;
       }
@@ -74,8 +74,8 @@ $_align-items-values: (
 
 @each $name in map-keys($_align-items-values) {
   $value: map-get($_align-items-values, $name);
-  // Example: .lds-align-items--start
-  .lds-align-items--#{$name} {
+  // Example: [luk~="align-items--start
+  [luk~="align-items--#{$name}"] {
     // Example: align-items: flex-start
     align-items: $value !important;
   }
@@ -87,8 +87,8 @@ $_align-items-values: (
   @media (min-width: $viewport) {
     @each $name in map-keys($_align-items-values) {
       $value: map-get($_align-items-values, $name);
-      // Example: .lds-lg-align-items--start
-      .lds-#{$breakpoint}-align-items--#{$name} {
+      // Example: [luk~="lg-align-items--start
+      [luk~="#{$breakpoint}-align-items--#{$name}"] {
         // Example: align-items: flex-start
         align-items: $value !important;
       }
@@ -104,8 +104,8 @@ $_flex-wrap-values: (
 
 @each $name in map-keys($_flex-wrap-values) {
   $value: map-get($_flex-wrap-values, $name);
-  // Example: .lds-flex-wrap--start
-  .lds-flex-wrap--#{$name} {
+  // Example: [luk~="flex-wrap--start
+  [luk~="flex-wrap--#{$name}"] {
     // Example: flex-wrap: flex-start
     flex-wrap: $value !important;
   }
@@ -115,10 +115,10 @@ $_flex-wrap-values: (
   $viewport: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $viewport) {
-    @each $name in map-keys($_flex-wrap-values) {
+    @each $name in map-keys($_flex-wrap-values){
       $value: map-get($_flex-wrap-values, $name);
-      // Example: .lds-lg-flex-wrap--start
-      .lds-#{$breakpoint}-flex-wrap--#{$name} {
+      // Example: [luk~="lg-flex-wrap--start
+      [luk~="#{$breakpoint}-flex-wrap--#{$name}"] {
         // Example: flex-wrap: flex-start
         flex-wrap: $value !important;
       }

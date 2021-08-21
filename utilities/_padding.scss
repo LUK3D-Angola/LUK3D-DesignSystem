@@ -6,33 +6,33 @@
   $scale: #{$i - 1};
 
   // Example: ds-u-p--0
-  .lds-p--#{$scale} {
+  [luk~="p--#{$scale}"] {
     // Example: padding: 0 !important;
     padding: #{$size} !important;
   }
 
-  .lds-p-top--#{$scale} {
+  [luk~="p-top--#{$scale}"] {
     padding-top: #{$size} !important;
   }
 
-  .lds-p-right--#{$scale} {
+  [luk~="p-right--#{$scale}"] {
     padding-right: #{$size} !important;
   }
 
-  .lds-p-bottom--#{$scale} {
+  [luk~="p-bottom--#{$scale}"] {
     padding-bottom: #{$size} !important;
   }
 
-  .lds-p-left--#{$scale} {
+  [luk~="p-left--#{$scale}"] {
     padding-left: #{$size} !important;
   }
 
-  .lds-p-x--#{$scale} {
+  [luk~="p-x--#{$scale}"] {
     padding-left: #{$size} !important;
     padding-right: #{$size} !important;
   }
 
-  .lds-p-y--#{$scale} {
+  [luk~="p-y--#{$scale}"] {
     padding-bottom: #{$size} !important;
     padding-top: #{$size} !important;
   }
@@ -47,33 +47,33 @@
       $scale: #{$i - 1};
 
       // Example: ds-u-sm-p--0
-      .lds-#{$breakpoint}-p--#{$scale} {
+      [luk~="#{$breakpoint}-p--#{$scale}"] {
         // Example: padding: 0 !important;
         padding: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-top--#{$scale} {
+      [luk~="#{$breakpoint}-p-top--#{$scale}"] {
         padding-top: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-right--#{$scale} {
+      [luk~="#{$breakpoint}-p-right--#{$scale}"] {
         padding-right: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-bottom--#{$scale} {
+      [luk~="#{$breakpoint}-p-bottom--#{$scale}"] {
         padding-bottom: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-left--#{$scale} {
+      [luk~="#{$breakpoint}-p-left--#{$scale}"] {
         padding-left: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-x--#{$scale} {
+      [luk~="#{$breakpoint}-p-x--#{$scale}"] {
         padding-left: #{$size} !important;
         padding-right: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-p-y--#{$scale} {
+      [luk~="#{$breakpoint}-p-y--#{$scale}"] {
         padding-bottom: #{$size} !important;
         padding-top: #{$size} !important;
       }

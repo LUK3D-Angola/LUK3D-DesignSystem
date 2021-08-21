@@ -1,10 +1,10 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.lds-sans {
+[luk~="sans"] {
   font-family: $font-sans !important;
 }
 
-.lds-serif {
+[luk~="serif"] {
   font-family: $font-serif !important;
 }

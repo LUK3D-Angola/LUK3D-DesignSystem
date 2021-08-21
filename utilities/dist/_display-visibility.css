@@ -1,0 +1,145 @@
+/* stylelint-disable declaration-no-important */
+[luk~=d--block] {
+  display: block !important;
+}
+
+[luk~=d--inline-block] {
+  display: inline-block !important;
+}
+
+[luk~=d--inline] {
+  display: inline !important;
+}
+
+[luk~=d--flex] {
+  display: flex !important;
+}
+
+[luk~=d--none] {
+  display: none !important;
+}
+
+[luk~=visibility--hidden] {
+  visibility: hidden !important;
+}
+
+[luk~=visibility--visible] {
+  visibility: visible !important;
+}
+
+[luk~=visibility--screen-reader] {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal;
+}
+
+@media print {
+  [luk~=visibility--hidden-print] {
+    display: none !important;
+  }
+}
+@media (min-width: 640px) {
+  [luk~=sm-d--block] {
+    display: block !important;
+  }
+
+  [luk~=sm-d--inline-block] {
+    display: inline-block !important;
+  }
+
+  [luk~=sm-d--flex] {
+    display: flex !important;
+  }
+
+  [luk~=sm-d--none] {
+    display: none !important;
+  }
+
+  [luk~=sm-visibility--hidden] {
+    visibility: hidden !important;
+  }
+
+  [luk~=sm-visibility--visible] {
+    visibility: visible !important;
+  }
+}
+@media (min-width: 768px) {
+  [luk~=md-d--block] {
+    display: block !important;
+  }
+
+  [luk~=md-d--inline-block] {
+    display: inline-block !important;
+  }
+
+  [luk~=md-d--flex] {
+    display: flex !important;
+  }
+
+  [luk~=md-d--none] {
+    display: none !important;
+  }
+
+  [luk~=md-visibility--hidden] {
+    visibility: hidden !important;
+  }
+
+  [luk~=md-visibility--visible] {
+    visibility: visible !important;
+  }
+}
+@media (min-width: 1024px) {
+  [luk~=lg-d--block] {
+    display: block !important;
+  }
+
+  [luk~=lg-d--inline-block] {
+    display: inline-block !important;
+  }
+
+  [luk~=lg-d--flex] {
+    display: flex !important;
+  }
+
+  [luk~=lg-d--none] {
+    display: none !important;
+  }
+
+  [luk~=lg-visibility--hidden] {
+    visibility: hidden !important;
+  }
+
+  [luk~=lg-visibility--visible] {
+    visibility: visible !important;
+  }
+}
+@media (min-width: 1280px) {
+  [luk~=xl-d--block] {
+    display: block !important;
+  }
+
+  [luk~=xl-d--inline-block] {
+    display: inline-block !important;
+  }
+
+  [luk~=xl-d--flex] {
+    display: flex !important;
+  }
+
+  [luk~=xl-d--none] {
+    display: none !important;
+  }
+
+  [luk~=xl-visibility--hidden] {
+    visibility: hidden !important;
+  }
+
+  [luk~=xl-visibility--visible] {
+    visibility: visible !important;
+  }
+}

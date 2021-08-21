@@ -1,0 +1,102 @@
+/* stylelint-disable declaration-no-important */
+/*
+Text alignment
+
+Align text using the `text-align` utility.
+
+**Format**: `ds-u-text-align--[VALUE]`
+
+Markup:
+<div class="ds-u-text-align--center">
+  <code class="preview__label">ds-u-text-align--center</code>
+  Center
+</div>
+<div class="ds-u-text-align--left">
+  <code class="preview__label">ds-u-text-align--left</code>
+  Left
+</div>
+<div class="ds-u-text-align--right">
+  <code class="preview__label">ds-u-text-align--right</code>
+  Right
+</div>
+
+Style guide: utilities.text-align
+*/
+[luk~=text-align--center] {
+  text-align: center !important;
+}
+
+[luk~=text-align--left] {
+  text-align: left !important;
+}
+
+[luk~=text-align--right] {
+  text-align: right !important;
+}
+
+/*
+Responsive text alignment
+
+@responsive
+
+Use a [breakpoint prefix](/guidelines/responsive) to change the text alignment at specific breakpoints.
+
+Markup:
+<div class="ds-u-sm-text-align--center ds-u-md-text-align--left ds-u-lg-text-align--right">
+ "] {{lorem-s}}
+</div>
+
+Style guide: utilities.text-align.responsive
+*/
+@media (min-width: 640px) {
+  [luk~=sm-text-align--center] {
+    text-align: center !important;
+  }
+
+  [luk~=sm-text-align--left] {
+    text-align: left !important;
+  }
+
+  [luk~=sm-text-align--right] {
+    text-align: right !important;
+  }
+}
+@media (min-width: 768px) {
+  [luk~=md-text-align--center] {
+    text-align: center !important;
+  }
+
+  [luk~=md-text-align--left] {
+    text-align: left !important;
+  }
+
+  [luk~=md-text-align--right] {
+    text-align: right !important;
+  }
+}
+@media (min-width: 1024px) {
+  [luk~=lg-text-align--center] {
+    text-align: center !important;
+  }
+
+  [luk~=lg-text-align--left] {
+    text-align: left !important;
+  }
+
+  [luk~=lg-text-align--right] {
+    text-align: right !important;
+  }
+}
+@media (min-width: 1280px) {
+  [luk~=xl-text-align--center] {
+    text-align: center !important;
+  }
+
+  [luk~=xl-text-align--left] {
+    text-align: left !important;
+  }
+
+  [luk~=xl-text-align--right] {
+    text-align: right !important;
+  }
+}

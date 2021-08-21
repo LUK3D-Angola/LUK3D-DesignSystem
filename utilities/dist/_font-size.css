@@ -1,0 +1,228 @@
+/* stylelint-disable declaration-no-important */
+[luk~=font-size--h5],
+[luk~=font-size--sm],
+[luk~=font-size--small] {
+  font-size: 14px !important;
+}
+
+[luk~=font-size--h5],
+[luk~=font-size--base],
+[luk~=font-size--md] {
+  font-size: 16px !important;
+}
+
+[luk~=font-size--h4],
+[luk~=font-size--lg],
+[luk~=font-size--lead] {
+  font-size: 18px !important;
+}
+
+[luk~=font-size--h3],
+[luk~=font-size--xl] {
+  font-size: 21px !important;
+}
+
+[luk~=font-size--h2],
+[luk~=font-size--2xl] {
+  font-size: 24px !important;
+}
+
+[luk~=font-size--h1],
+[luk~=font-size--3xl] {
+  font-size: 36px !important;
+}
+
+[luk~=font-size--title],
+[luk~=font-size--4xl] {
+  font-size: 48px !important;
+}
+
+[luk~=font-size--display],
+[luk~=font-size--5xl] {
+  font-size: 60px !important;
+}
+
+@media (min-width: 640px) {
+  [luk~=sm-font-size--small],
+[luk~=sm-font-size--sm] {
+    font-size: 14px !important;
+  }
+
+  [luk~=sm-font-size--md],
+[luk~=sm-font-size--base] {
+    font-size: 16px !important;
+  }
+
+  [luk~=sm-font-size--lg],
+[luk~=sm-font-size--lead] {
+    font-size: 18px !important;
+  }
+
+  [luk~=sm-font-size--display],
+[luk~=sm-font-size--5xl] {
+    font-size: 60px !important;
+  }
+
+  [luk~=sm-font-size--title],
+[luk~=sm-font-size--4xl] {
+    font-size: 48px !important;
+  }
+
+  [luk~=sm-font-size--h1],
+[luk~=sm-font-size--3xl] {
+    font-size: 36px !important;
+  }
+
+  [luk~=sm-font-size--h2],
+[luk~=sm-font-size--2xl] {
+    font-size: 24px !important;
+  }
+
+  [luk~=sm-font-size--h3],
+[luk~=sm-font-size--xl] {
+    font-size: 21px !important;
+  }
+
+  [luk~=sm-font-size--h4],
+[luk~=sm-font-size--lg] {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 768px) {
+  [luk~=md-font-size--small],
+[luk~=md-font-size--sm] {
+    font-size: 14px !important;
+  }
+
+  [luk~=md-font-size--md],
+[luk~=md-font-size--base] {
+    font-size: 16px !important;
+  }
+
+  [luk~=md-font-size--lg],
+[luk~=md-font-size--lead] {
+    font-size: 18px !important;
+  }
+
+  [luk~=md-font-size--display],
+[luk~=md-font-size--5xl] {
+    font-size: 60px !important;
+  }
+
+  [luk~=md-font-size--title],
+[luk~=md-font-size--4xl] {
+    font-size: 48px !important;
+  }
+
+  [luk~=md-font-size--h1],
+[luk~=md-font-size--3xl] {
+    font-size: 36px !important;
+  }
+
+  [luk~=md-font-size--h2],
+[luk~=md-font-size--2xl] {
+    font-size: 24px !important;
+  }
+
+  [luk~=md-font-size--h3],
+[luk~=md-font-size--xl] {
+    font-size: 21px !important;
+  }
+
+  [luk~=md-font-size--h4],
+[luk~=md-font-size--lg] {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1024px) {
+  [luk~=lg-font-size--small],
+[luk~=lg-font-size--sm] {
+    font-size: 14px !important;
+  }
+
+  [luk~=lg-font-size--md],
+[luk~=lg-font-size--base] {
+    font-size: 16px !important;
+  }
+
+  [luk~=lg-font-size--lg],
+[luk~=lg-font-size--lead] {
+    font-size: 18px !important;
+  }
+
+  [luk~=lg-font-size--display],
+[luk~=lg-font-size--5xl] {
+    font-size: 60px !important;
+  }
+
+  [luk~=lg-font-size--title],
+[luk~=lg-font-size--4xl] {
+    font-size: 48px !important;
+  }
+
+  [luk~=lg-font-size--h1],
+[luk~=lg-font-size--3xl] {
+    font-size: 36px !important;
+  }
+
+  [luk~=lg-font-size--h2],
+[luk~=lg-font-size--2xl] {
+    font-size: 24px !important;
+  }
+
+  [luk~=lg-font-size--h3],
+[luk~=lg-font-size--xl] {
+    font-size: 21px !important;
+  }
+
+  [luk~=lg-font-size--h4],
+[luk~=lg-font-size--lg] {
+    font-size: 18px !important;
+  }
+}
+@media (min-width: 1280px) {
+  [luk~=xl-font-size--small],
+[luk~=xl-font-size--sm] {
+    font-size: 14px !important;
+  }
+
+  [luk~=xl-font-size--md],
+[luk~=xl-font-size--base] {
+    font-size: 16px !important;
+  }
+
+  [luk~=xl-font-size--lg],
+[luk~=xl-font-size--lead] {
+    font-size: 18px !important;
+  }
+
+  [luk~=xl-font-size--display],
+[luk~=xl-font-size--5xl] {
+    font-size: 60px !important;
+  }
+
+  [luk~=xl-font-size--title],
+[luk~=xl-font-size--4xl] {
+    font-size: 48px !important;
+  }
+
+  [luk~=xl-font-size--h1],
+[luk~=xl-font-size--3xl] {
+    font-size: 36px !important;
+  }
+
+  [luk~=xl-font-size--h2],
+[luk~=xl-font-size--2xl] {
+    font-size: 24px !important;
+  }
+
+  [luk~=xl-font-size--h3],
+[luk~=xl-font-size--xl] {
+    font-size: 21px !important;
+  }
+
+  [luk~=xl-font-size--h4],
+[luk~=xl-font-size--lg] {
+    font-size: 18px !important;
+  }
+}

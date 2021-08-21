@@ -1,35 +1,35 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.lds-d--block {
+[luk~="d--block"] {
   display: block !important;
 }
 
-.lds-d--inline-block {
+[luk~="d--inline-block"] {
   display: inline-block !important;
 }
 
-.lds-d--inline {
+[luk~="d--inline"] {
   display: inline !important;
 }
 
-.lds-d--flex {
+[luk~="d--flex"] {
   display: flex !important;
 }
 
-.lds-d--none {
+[luk~="d--none"] {
   display: none !important;
 }
 
-.lds-visibility--hidden {
+[luk~="visibility--hidden"] {
   visibility: hidden !important;
 }
 
-.lds-visibility--visible {
+[luk~="visibility--visible"] {
   visibility: visible !important;
 }
 
-.lds-visibility--screen-reader {
+[luk~="visibility--screen-reader"] {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -42,7 +42,7 @@
 }
 
 @media print {
-  .lds-visibility--hidden-print {
+  [luk~="visibility--hidden-print"] {
     display: none !important;
   }
 }
@@ -51,27 +51,27 @@
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .lds-#{$breakpoint}-d--block {
+    [luk~="#{$breakpoint}-d--block"] {
       display: block !important;
     }
 
-    .lds-#{$breakpoint}-d--inline-block {
+    [luk~="#{$breakpoint}-d--inline-block"] {
       display: inline-block !important;
     }
 
-    .lds-#{$breakpoint}-d--flex {
+    [luk~="#{$breakpoint}-d--flex"] {
       display: flex !important;
     }
 
-    .lds-#{$breakpoint}-d--none {
+    [luk~="#{$breakpoint}-d--none"] {
       display: none !important;
     }
 
-    .lds-#{$breakpoint}-visibility--hidden {
+    [luk~="#{$breakpoint}-visibility--hidden"] {
       visibility: hidden !important;
     }
 
-    .lds-#{$breakpoint}-visibility--visible {
+    [luk~="#{$breakpoint}-visibility--visible"] {
       visibility: visible !important;
     }
   }

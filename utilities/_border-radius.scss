@@ -2,294 +2,294 @@
 @import "../settings/index.scss";
 
 // TODO: Example border radius utilities and make utility format consistent
-.lds-radius {
-  border-radius: $border-radius;
-}
+// [luk~="rounded"] {
+//   border-radius: $border-radius;
+// }
 
-.lds-radius--pill {
+[luk~="rounded--pill"] {
   border-radius: $border-radius-pill;
 }
 
-.lds-radius--circle {
+[luk~="rounded--circle"] {
   border-radius: $border-radius-circle;
 }
 
-.lds-rounded-none {
+[luk~="rounded--none"] {
   border-radius: 0px;
 }
-.lds-rounded-sm {
+[luk~="rounded--sm"] {
   border-radius: 0.125rem;
 }
-ldslds-rounded {
+[luk~="rounded"] {
   border-radius: 0.25rem;
 }
-.lds-rounded-md {
+[luk~="rounded--md"] {
   border-radius: 0.375rem;
 }
-.lds-rounded-lg {
+[luk~="rounded--lg"] {
   border-radius: 0.5rem;
 }
-.lds-rounded-xl {
+[luk~="rounded--xl"] {
   border-radius: 0.75rem;
 }
-.lds-rounded-2xl {
+[luk~="rounded--2xl"] {
   border-radius: 1rem;
 }
-.lds-rounded-3xl {
+[luk~="rounded--3xl"] {
   border-radius: 1.5rem;
 }
-.lds-rounded-full {
+[luk~="rounded--full"] {
   border-radius: 9999px;
 }
-.lds-rounded-t-none {
+[luk~="rounded--t-none"] {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
 }
-.lds-rounded-t-sm {
+[luk~="rounded--t-sm"] {
   border-top-left-radius: 0.125rem;
   border-top-right-radius: 0.125rem;
 }
-.lds-rounded-t {
+[luk~="rounded--t"] {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-.lds-rounded-t-md {
+[luk~="rounded--t-md"] {
   border-top-left-radius: 0.375rem;
   border-top-right-radius: 0.375rem;
 }
-.lds-rounded-t-lg {
+[luk~="rounded--t-lg"] {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-.lds-rounded-t-xl {
+[luk~="rounded--t-xl"] {
   border-top-left-radius: 0.75rem;
   border-top-right-radius: 0.75rem;
 }
-.lds-rounded-t-2xl {
+[luk~="rounded--t-2xl"] {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-.lds-rounded-t-3xl {
+[luk~="rounded--t-3xl"] {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
 }
-.lds-rounded-t-full {
+[luk~="rounded--t-full"] {
   border-top-left-radius: 9999px;
   border-top-right-radius: 9999px;
 }
-.lds-rounded-r-none {
+[luk~="rounded--r-none"] {
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
 }
-.lds-rounded-r-sm {
+[luk~="rounded--r-sm"] {
   border-top-right-radius: 0.125rem;
   border-bottom-right-radius: 0.125rem;
 }
-.lds-rounded-r {
+[luk~="rounded--r"] {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
-.lds-rounded-r-md {
+[luk~="rounded--r-md"] {
   border-top-right-radius: 0.375rem;
   border-bottom-right-radius: 0.375rem;
 }
-.lds-rounded-r-lg {
+[luk~="rounded--r-lg"] {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
 }
-.lds-rounded-r-xl {
+[luk~="rounded--r-xl"] {
   border-top-right-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
 }
-.lds-rounded-r-2xl {
+[luk~="rounded--r-2xl"] {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-.lds-rounded-r-3xl {
+[luk~="rounded--r-3xl"] {
   border-top-right-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;
 }
-.lds-rounded-r-full {
+[luk~="rounded--r-full"] {
   border-top-right-radius: 9999px;
   border-bottom-right-radius: 9999px;
 }
-.lds-rounded-b-none {
+[luk~="rounded--b-none"] {
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-.lds-rounded-b-sm {
+[luk~="rounded--b-sm"] {
   border-bottom-right-radius: 0.125rem;
   border-bottom-left-radius: 0.125rem;
 }
-.lds-rounded-b {
+[luk~="rounded--b"] {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.lds-rounded-b-md {
+[luk~="rounded--b-md"] {
   border-bottom-right-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
-.lds-rounded-b-lg {
+[luk~="rounded--b-lg"] {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.lds-rounded-b-xl {
+[luk~="rounded--b-xl"] {
   border-bottom-right-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
-.lds-rounded-b-2xl {
+[luk~="rounded--b-2xl"] {
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.lds-rounded-b-3xl {
+[luk~="rounded--b-3xl"] {
   border-bottom-right-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
-.lds-rounded-b-full {
+[luk~="rounded--b-full"] {
   border-bottom-right-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
-.lds-rounded-l-none {
+[luk~="rounded--l-none"] {
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 }
-.lds-rounded-l-sm {
+[luk~="rounded--l-sm"] {
   border-top-left-radius: 0.125rem;
   border-bottom-left-radius: 0.125rem;
 }
-.lds-rounded-l {
+[luk~="rounded--l"] {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.lds-rounded-l-md {
+[luk~="rounded--l-md"] {
   border-top-left-radius: 0.375rem;
   border-bottom-left-radius: 0.375rem;
 }
-.lds-rounded-l-lg {
+[luk~="rounded--l-lg"] {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.lds-rounded-l-xl {
+[luk~="rounded--l-xl"] {
   border-top-left-radius: 0.75rem;
   border-bottom-left-radius: 0.75rem;
 }
-.lds-rounded-l-2xl {
+[luk~="rounded--l-2xl"] {
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
 }
-.lds-rounded-l-3xl {
+[luk~="rounded--l-3xl"] {
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
 }
-.lds-rounded-l-full {
+[luk~="rounded--l-full"] {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px;
 }
-.lds-rounded-tl-none {
+[luk~="rounded--tl-none"] {
   border-top-left-radius: 0px;
 }
-.lds-rounded-tl-sm {
+[luk~="rounded--tl-sm"] {
   border-top-left-radius: 0.125rem;
 }
-.lds-rounded-tl {
+[luk~="rounded--tl"] {
   border-top-left-radius: 0.25rem;
 }
-.lds-rounded-tl-md {
+[luk~="rounded--tl-md"] {
   border-top-left-radius: 0.375rem;
 }
-.lds-rounded-tl-lg {
+[luk~="rounded--tl-lg"] {
   border-top-left-radius: 0.5rem;
 }
-.lds-rounded-tl-xl {
+[luk~="rounded--tl-xl"] {
   border-top-left-radius: 0.75rem;
 }
-.lds-rounded-tl-2xl {
+[luk~="rounded--tl-2xl"] {
   border-top-left-radius: 1rem;
 }
-.lds-rounded-tl-3xl {
+[luk~="rounded--tl-3xl"] {
   border-top-left-radius: 1.5rem;
 }
-.lds-rounded-tl-full {
+[luk~="rounded--tl-full"] {
   border-top-left-radius: 9999px;
 }
-.lds-rounded-tr-none {
+[luk~="rounded--tr-none"] {
   border-top-right-radius: 0px;
 }
-.lds-rounded-tr-sm {
+[luk~="rounded--tr-sm"] {
   border-top-right-radius: 0.125rem;
 }
-.lds-rounded-tr {
+[luk~="rounded--tr"] {
   border-top-right-radius: 0.25rem;
 }
-.lds-rounded-tr-md {
+[luk~="rounded--tr-md"] {
   border-top-right-radius: 0.375rem;
 }
-.lds-rounded-tr-lg {
+[luk~="rounded--tr-lg"] {
   border-top-right-radius: 0.5rem;
 }
-.lds-rounded-tr-xl {
+[luk~="rounded--tr-xl"] {
   border-top-right-radius: 0.75rem;
 }
-.lds-rounded-tr-2xl {
+[luk~="rounded--tr-2xl"] {
   border-top-right-radius: 1rem;
 }
-.lds-rounded-tr-3xl {
+[luk~="rounded--tr-3xl"] {
   border-top-right-radius: 1.5rem;
 }
-.lds-rounded-tr-full {
+[luk~="rounded--tr-full"] {
   border-top-right-radius: 9999px;
 }
-.lds-rounded-br-none {
+[luk~="rounded--br-none"] {
   border-bottom-right-radius: 0px;
 }
-.lds-rounded-br-sm {
+[luk~="rounded--br-sm"] {
   border-bottom-right-radius: 0.125rem;
 }
-.lds-rounded-br {
+[luk~="rounded--br"] {
   border-bottom-right-radius: 0.25rem;
 }
-.lds-rounded-br-md {
+[luk~="rounded--br-md"] {
   border-bottom-right-radius: 0.375rem;
 }
-.lds-rounded-br-lg {
+[luk~="rounded--br-lg"] {
   border-bottom-right-radius: 0.5rem;
 }
-.lds-rounded-br-xl {
+[luk~="rounded--br-xl"] {
   border-bottom-right-radius: 0.75rem;
 }
-.lds-rounded-br-2xl {
+[luk~="rounded--br-2xl"] {
   border-bottom-right-radius: 1rem;
 }
-.lds-rounded-br-3xl {
+[luk~="rounded--br-3xl"] {
   border-bottom-right-radius: 1.5rem;
 }
-.lds-rounded-br-full {
+[luk~="rounded--br-full"] {
   border-bottom-right-radius: 9999px;
 }
-.lds-rounded-bl-none {
+[luk~="rounded--bl-none"] {
   border-bottom-left-radius: 0px;
 }
-.lds-rounded-bl-sm {
+[luk~="rounded--bl-sm"] {
   border-bottom-left-radius: 0.125rem;
 }
-.lds-rounded-bl {
+[luk~="rounded--bl"] {
   border-bottom-left-radius: 0.25rem;
 }
-.lds-rounded-bl-md {
+[luk~="rounded--bl-md"] {
   border-bottom-left-radius: 0.375rem;
 }
-.lds-rounded-bl-lg {
+[luk~="rounded--bl-lg"] {
   border-bottom-left-radius: 0.5rem;
 }
-.lds-rounded-bl-xl {
+[luk~="rounded--bl-xl"] {
   border-bottom-left-radius: 0.75rem;
 }
-.lds-rounded-bl-2xl {
+[luk~="rounded--bl-2xl"] {
   border-bottom-left-radius: 1rem;
 }
-.lds-rounded-bl-3xl {
+[luk~="rounded--bl-3xl"] {
   border-bottom-left-radius: 1.5rem;
 }
-.lds-rounded-bl-full {
+[luk~="rounded--bl-full"] {
   border-bottom-left-radius: 9999px;
 }

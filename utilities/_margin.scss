@@ -6,33 +6,33 @@
   $scale: #{$i - 1};
 
   // Example: ds-u-margin--0
-  .lds-m--#{$scale} {
+ [luk~="m--#{$scale}"] {
     // Example: margin: 0 !important;
     margin: #{$size} !important;
   }
 
-  .lds-m-top--#{$scale} {
+ [luk~="m-top--#{$scale}"] {
     margin-top: #{$size} !important;
   }
 
-  .lds-m-right--#{$scale} {
+ [luk~="m-right--#{$scale}"] {
     margin-right: #{$size} !important;
   }
 
-  .lds-m-bottom--#{$scale} {
+ [luk~="m-bottom--#{$scale}"] {
     margin-bottom: #{$size} !important;
   }
 
-  .lds-m-left--#{$scale} {
+ [luk~="m-left--#{$scale}"] {
     margin-left: #{$size} !important;
   }
 
-  .lds-m-x--#{$scale} {
+ [luk~="m-x--#{$scale}"] {
     margin-left: #{$size} !important;
     margin-right: #{$size} !important;
   }
 
-  .lds-m-y--#{$scale} {
+ [luk~="m-y--#{$scale}"] {
     margin-bottom: #{$size} !important;
     margin-top: #{$size} !important;
   }
@@ -44,65 +44,65 @@
   $scale: #{$i - 1};
 
   // Example: ds-u-margin--0
-  .lds-m--n#{$scale} {
+ [luk~="m--n#{$scale}"] {
     // Example: margin: 0 !important;
     margin: -#{$size} !important;
   }
 
-  .lds-m-top--n#{$scale} {
+ [luk~="m-top--n#{$scale}"] {
     margin-top: -#{$size} !important;
   }
 
-  .lds-m-right--n#{$scale} {
+ [luk~="m-right--n#{$scale}"] {
     margin-right: -#{$size} !important;
   }
 
-  .lds-m-bottom--n#{$scale} {
+ [luk~="m-bottom--n#{$scale}"] {
     margin-bottom: -#{$size} !important;
   }
 
-  .lds-m-left--n#{$scale} {
+ [luk~="m-left--n#{$scale}"] {
     margin-left: -#{$size} !important;
   }
 
-  .lds-m-x--n#{$scale} {
+ [luk~="m-x--n#{$scale}"] {
     margin-left: -#{$size} !important;
     margin-right: -#{$size} !important;
   }
 
-  .lds-m-y--n#{$scale} {
+ [luk~="m-y--n#{$scale}"] {
     margin-bottom: -#{$size} !important;
     margin-top: -#{$size} !important;
   }
 }
 
 
-.lds-m--auto {
+[luk~="m--auto"] {
   margin: auto !important;
 }
 
-.lds-m-top--auto {
+[luk~="m-top--auto"] {
   margin-top: auto !important;
 }
 
-.lds-m-right--auto {
+[luk~="m-right--auto"] {
   margin-right: auto !important;
 }
 
-.lds-m-bottom--auto {
+[luk~="m-bottom--auto"] {
   margin-bottom: auto !important;
 }
 
-.lds-m-left--auto {
+[luk~="m-left--auto"] {
   margin-left: auto !important;
 }
 
-.lds-m-x--auto {
+[luk~="m-x--auto"] {
   margin-left: auto !important;
   margin-right: auto !important;
 }
 
-.lds-m-y--auto {
+[luk~="m-y--auto"] {
   margin-bottom: auto !important;
   margin-top: auto !important;
 }
@@ -116,64 +116,64 @@
       $scale: #{$i - 1};
 
       // Example: ds-u-sm-margin--0
-      .lds-#{$breakpoint}-margin--#{$scale} {
+     [luk~="#{$breakpoint}-margin--#{$scale}"] {
         // Example: margin: 0 !important;
         margin: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-top--#{$scale} {
+     [luk~="#{$breakpoint}-margin-top--#{$scale}"] {
         margin-top: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-right--#{$scale} {
+     [luk~="#{$breakpoint}-margin-right--#{$scale}"] {
         margin-right: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-bottom--#{$scale} {
+     [luk~="#{$breakpoint}-margin-bottom--#{$scale}"] {
         margin-bottom: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-left--#{$scale} {
+     [luk~="#{$breakpoint}-margin-left--#{$scale}"] {
         margin-left: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-x--#{$scale} {
+     [luk~="#{$breakpoint}-margin-x--#{$scale}"] {
         margin-left: #{$size} !important;
         margin-right: #{$size} !important;
       }
 
-      .lds-#{$breakpoint}-margin-y--#{$scale} {
+     [luk~="#{$breakpoint}-margin-y--#{$scale}"] {
         margin-bottom: #{$size} !important;
         margin-top: #{$size} !important;
       }
     }
 
-    .lds-#{$breakpoint}-margin--auto {
+   [luk~="#{$breakpoint}-margin--auto"] {
       margin: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-top--auto {
+   [luk~="#{$breakpoint}-margin-top--auto"] {
       margin-top: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-right--auto {
+   [luk~="#{$breakpoint}-margin-right--auto"] {
       margin-right: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-bottom--auto {
+   [luk~="#{$breakpoint}-margin-bottom--auto"] {
       margin-bottom: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-left--auto {
+   [luk~="#{$breakpoint}-margin-left--auto"] {
       margin-left: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-x--auto {
+   [luk~="#{$breakpoint}-margin-x--auto"] {
       margin-left: auto !important;
       margin-right: auto !important;
     }
 
-    .lds-#{$breakpoint}-margin-y--auto {
+   [luk~="#{$breakpoint}-margin-y--auto"] {
       margin-bottom: auto !important;
       margin-top: auto !important;
     }

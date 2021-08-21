@@ -1,0 +1,12 @@
+/* stylelint-disable declaration-no-important */
+[luk~=measure--narrow] {
+  max-width: 45ex !important;
+}
+
+[luk~=measure--base] {
+  max-width: 65ex !important;
+}
+
+[luk~=measure--wide] {
+  max-width: 80ex !important;
+}

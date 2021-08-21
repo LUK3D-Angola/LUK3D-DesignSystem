@@ -1,15 +1,15 @@
-.lds-shadow--sm {
+[luk~=shadow--sm] {
   box-shadow: 0 0.125rem 0.25rem var(--color-shadow-sm) !important;
 }
 
-.lds-shadow {
+[luk~=shadow] {
   box-shadow: 0 0.5rem 1rem var(--color-shadow) !important;
 }
 
-.lds-shadow--lg {
+[luk~=shadow--lg] {
   box-shadow: 0 1rem 3rem var(--color-shadow-lg) !important;
 }
 
-.lds-shadow--none {
+[luk~=shadow--none] {
   box-shadow: none !important;
 }

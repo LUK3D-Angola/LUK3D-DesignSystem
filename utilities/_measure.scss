@@ -1,14 +1,14 @@
 /* stylelint-disable declaration-no-important */
 @import '../settings/index.scss';
 
-.lds-measure--narrow {
+[luk~="measure--narrow"] {
   max-width: $measure-narrow !important;
 }
 
-.lds-measure--base {
+[luk~="measure--base"] {
   max-width: $measure-base !important;
 }
 
-.lds-measure--wide {
+[luk~="measure--wide"] {
   max-width: $measure-wide !important;
 }

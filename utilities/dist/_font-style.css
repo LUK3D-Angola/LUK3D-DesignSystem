@@ -1,10 +1,8 @@
 /* stylelint-disable declaration-no-important */
-@import '../settings/index.scss';
-
-[luk~="font-style--normal"] {
+[luk~=font-style--normal] {
   font-style: normal !important;
 }
 
-[luk~="font-style--italic"] {
+[luk~=font-style--italic] {
   font-style: italic !important;
 }

@@ -24,15 +24,15 @@ Markup:
 
 Style guide: utilities.text-align
 */
-.lds-text-align--center {
+[luk~="text-align--center"] {
   text-align: center !important;
 }
 
-.lds-text-align--left {
+[luk~="text-align--left"] {
   text-align: left !important;
 }
 
-.lds-text-align--right {
+[luk~="text-align--right"] {
   text-align: right !important;
 }
 
@@ -45,7 +45,7 @@ Use a [breakpoint prefix](/guidelines/responsive) to change the text alignment a
 
 Markup:
 <div class="ds-u-sm-text-align--center ds-u-md-text-align--left ds-u-lg-text-align--right">
-  {{lorem-s}}
+ "] {{lorem-s}}
 </div>
 
 Style guide: utilities.text-align.responsive
@@ -54,15 +54,15 @@ Style guide: utilities.text-align.responsive
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .lds-#{$breakpoint}-text-align--center {
+    [luk~="#{$breakpoint}-text-align--center"] {
       text-align: center !important;
     }
 
-    .lds-#{$breakpoint}-text-align--left {
+    [luk~="#{$breakpoint}-text-align--left"] {
       text-align: left !important;
     }
 
-    .lds-#{$breakpoint}-text-align--right {
+    [luk~="#{$breakpoint}-text-align--right"] {
       text-align: right !important;
     }
   }

@@ -1,14 +1,12 @@
 /* stylelint-disable declaration-no-important */
-@import '../settings/index.scss';
-
-[luk~="valign--top"] {
+[luk~=valign--top] {
   vertical-align: top !important;
 }
 
-[luk~="valign--middle"] {
+[luk~=valign--middle] {
   vertical-align: middle !important;
 }
 
-[luk~="valign--bottom"] {
+[luk~=valign--bottom] {
   vertical-align: bottom !important;
 }

@@ -5,7 +5,7 @@
 /**
  *  Grid container
  */
-.lds-container {
+[luk~="container"] {
   margin-left: auto;
   margin-right: auto;
   max-width: $site-max-width;
@@ -21,18 +21,18 @@
 /**
  *  Grid row
  */
-.lds-row,
-.lds-form-row {
+[luk~="row"],
+[luk~="form-row"] {
   display: flex;
   flex-wrap: wrap;
 }
 
-.lds-row {
+[luk~="row"] {
   margin-left: ($grid-gutter-width / -2);
   margin-right: ($grid-gutter-width / -2);
 }
 
-.lds-form-row {
+[luk~="form-row"] {
   margin-left: ($grid-form-gutter-width / -2);
   margin-right: ($grid-form-gutter-width / -2);
 }
@@ -55,27 +55,27 @@
 
 @for $i from 1 through $grid-columns {
   // Example: ds-l-col--6
-  .lds-col--#{$i} {
+  [luk~="col--#{$i}"] {
     @extend %grid-column;
   }
 }
 
-.lds-col,
-.lds-col--auto {
+[luk~="col"],
+[luk~="col--auto"] {
   @extend %grid-column;
 }
 
-.lds-col {
+[luk~="col"] {
   @include equal-width-flexbox-col;
 }
 
-.lds-col--auto {
+[luk~="col--auto"] {
   @include auto-width-flexbox-col;
 }
 
-@for $i from 1 through $grid-columns {
+@for $i from 1 through $grid-columns{
   // Example: ds-l-col--12
-  .lds-col--#{$i} {
+  [luk~="col--#{$i}"]{
     @include flexbox-col($i);
   }
 }
@@ -84,36 +84,36 @@
   $value: map-get($breakpoints, $breakpoint);
 
   // Allow columns to stretch full width below their breakpoints
-  @for $i from 1 through $grid-columns {
+  @for $i from 1 through $grid-columns{
     // Example: ds-l-lg-col--12
-    .lds-#{$breakpoint}-col--#{$i} {
+    [luk~="#{$breakpoint}-col--#{$i}"] {
       @extend %grid-column;
     }
   }
 
-  .lds-#{$breakpoint}-col--auto {
+  [luk~="#{$breakpoint}-col--auto"] {
     @extend %grid-column;
   }
 
   // Example: ds-l-lg-col
-  .lds-#{$breakpoint}-col {
+  [luk~="#{$breakpoint}-col"] {
     @extend %grid-column;
   }
 
-  @media (min-width: $value) {
+  @media (min-width: $value){
     // Provide breakpoint classes for equal-width columns
     // Example: ds-l-lg-col
-    .lds-#{$breakpoint}-col {
+    [luk~="#{$breakpoint}-col"] {
       @include equal-width-flexbox-col;
     }
 
-    .lds-#{$breakpoint}-col--auto {
+    [luk~="#{$breakpoint}-col--auto"] {
       @include auto-width-flexbox-col;
     }
 
-    @for $i from 1 through $grid-columns {
+    @for $i from 1 through $grid-columns{
       // Example: ds-l-lg-col--12
-      .lds-#{$breakpoint}-col--#{$i} {
+      [luk~="#{$breakpoint}-col--#{$i}"] {
         @include flexbox-col($i);
       }
     }
@@ -121,8 +121,8 @@
 }
 
 // Overwrite default padding in a form-row so fields are closer
-.lds-form-row > .lds-col,
-.lds-form-row > [class*='-col-'] {
+[luk~="form-row"] > [luk~="col"],
+[luk~="form-row"] > [luk*='-col-'] {
   padding-left: $grid-form-gutter-width / 2;
   padding-right: $grid-form-gutter-width / 2;
 }

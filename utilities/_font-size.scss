@@ -3,46 +3,46 @@
 
 // To Do: Remove the semantic classes h1, h2, h3, display, title, etc... after deprecating
 
-.lds-font-size--h5,
-.lds-font-size--sm,
-.lds-font-size--small {
+[luk~="font-size--h5"] ,
+[luk~="font-size--sm"] ,
+[luk~="font-size--small"] {
   font-size: $font-size-sm !important;
 }
 
-.lds-font-size--h5,
-.lds-font-size--base,
-.lds-font-size--md {
+[luk~="font-size--h5"] ,
+[luk~="font-size--base"] ,
+[luk~="font-size--md"] {
   font-size: $base-font-size !important;
 }
 
-.lds-font-size--h4,
-.lds-font-size--lg,
-.lds-font-size--lead {
+[luk~="font-size--h4"] ,
+[luk~="font-size--lg"] ,
+[luk~="font-size--lead"] {
   font-size: $font-size-lg !important;
 }
 
-.lds-font-size--h3,
-.lds-font-size--xl {
+[luk~="font-size--h3"] ,
+[luk~="font-size--xl"] {
   font-size: $font-size-xl !important;
 }
 
-.lds-font-size--h2,
-.lds-font-size--2xl {
+[luk~="font-size--h2"] ,
+[luk~="font-size--2xl"] {
   font-size: $font-size-2xl !important;
 }
 
-.lds-font-size--h1,
-.lds-font-size--3xl {
+[luk~="font-size--h1"] ,
+[luk~="font-size--3xl"] {
   font-size: $font-size-3xl !important;
 }
 
-.lds-font-size--title,
-.lds-font-size--4xl {
+[luk~="font-size--title"] ,
+[luk~="font-size--4xl"] {
   font-size: $font-size-4xl !important;
 }
 
-.lds-font-size--display,
-.lds-font-size--5xl {
+[luk~="font-size--display"] ,
+[luk~="font-size--5xl"] {
   font-size: $font-size-5xl !important;
 }
 
@@ -50,47 +50,47 @@
   $value: map-get($breakpoints, $breakpoint);
 
   @media (min-width: $value) {
-    .lds-#{$breakpoint}-font-size--small,
-    .lds-#{$breakpoint}-font-size--sm {
+    [luk~="#{$breakpoint}-font-size--small"] ,
+    [luk~="#{$breakpoint}-font-size--sm"] {
       font-size: $font-size-sm !important;
     }
-    .lds-#{$breakpoint}-font-size--md,
-    .lds-#{$breakpoint}-font-size--base {
+    [luk~="#{$breakpoint}-font-size--md"] ,
+    [luk~="#{$breakpoint}-font-size--base"] {
       font-size: $base-font-size !important;
     }
 
-    .lds-#{$breakpoint}-font-size--lg,
-    .lds-#{$breakpoint}-font-size--lead {
+    [luk~="#{$breakpoint}-font-size--lg"] ,
+    [luk~="#{$breakpoint}-font-size--lead"] {
       font-size: $font-size-lg !important;
     }
 
-    .lds-#{$breakpoint}-font-size--display,
-    .lds-#{$breakpoint}-font-size--5xl {
+    [luk~="#{$breakpoint}-font-size--display"] ,
+    [luk~="#{$breakpoint}-font-size--5xl"] {
       font-size: $font-size-5xl !important;
     }
 
-    .lds-#{$breakpoint}-font-size--title,
-    .lds-#{$breakpoint}-font-size--4xl {
+    [luk~="#{$breakpoint}-font-size--title"] ,
+    [luk~="#{$breakpoint}-font-size--4xl"] {
       font-size: $font-size-4xl !important;
     }
 
-    .lds-#{$breakpoint}-font-size--h1,
-    .lds-#{$breakpoint}-font-size--3xl {
+    [luk~="#{$breakpoint}-font-size--h1"] ,
+    [luk~="#{$breakpoint}-font-size--3xl"] {
       font-size: $font-size-3xl !important;
     }
 
-    .lds-#{$breakpoint}-font-size--h2,
-    .lds-#{$breakpoint}-font-size--2xl {
+    [luk~="#{$breakpoint}-font-size--h2"] ,
+    [luk~="#{$breakpoint}-font-size--2xl"] {
       font-size: $font-size-2xl !important;
     }
 
-    .lds-#{$breakpoint}-font-size--h3,
-    .lds-#{$breakpoint}-font-size--xl {
+    [luk~="#{$breakpoint}-font-size--h3"] ,
+    [luk~="#{$breakpoint}-font-size--xl"] {
       font-size: $font-size-xl !important;
     }
 
-    .lds-#{$breakpoint}-font-size--h4,
-    .lds-#{$breakpoint}-font-size--lg {
+    [luk~="#{$breakpoint}-font-size--h4"] ,
+    [luk~="#{$breakpoint}-font-size--lg"] {
       font-size: $font-size-lg !important;
     }
   }
