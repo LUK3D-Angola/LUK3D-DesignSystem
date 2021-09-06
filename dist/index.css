@@ -2861,50 +2861,29 @@ div[lds-icon] {
 }
 
 /* stylelint-disable declaration-no-important */
-
+[lds~="pos--absolute"] {
+    position: absolute;
+}
 
 [lds~="pos--fixed"] {
     position: fixed;
 }
 
-@media (min-width: 0) {
-    [lds~="xs-pos--fixed"] {
-        position: fixed;
-    }
-}
-
-@media (min-width: 640px) {
-    [lds~="sm-pos--fixed"] {
-        position: fixed;
-    }
-}
-
-@media (min-width: 768px) {
-    [lds~="md-pos--fixed"] {
-        position: fixed;
-    }
-}
-
-@media (min-width: 1024px) {
-    [lds~="lg-pos--fixed"] {
-        position: fixed;
-    }
-}
-
-@media (min-width: 1280px) {
-    [lds~="xl-pos--fixed"] {
-        position: fixed;
-    }
-}
-
-
-[lds~="pos--absolute"] {
-    position: absolute;
+[lds~="pos--relative"] {
+    position: relative;
 }
 
 @media (min-width: 0) {
     [lds~="xs-pos--absolute"] {
         position: absolute;
+    }
+
+    [lds~="xs-pos--fixed"] {
+        position: fixed;
+    }
+
+    [lds~="xs-pos--relative"] {
+        position: relative;
     }
 }
 
@@ -2912,11 +2891,27 @@ div[lds-icon] {
     [lds~="sm-pos--absolute"] {
         position: absolute;
     }
+
+    [lds~="sm-pos--fixed"] {
+        position: fixed;
+    }
+
+    [lds~="sm-pos--relative"] {
+        position: relative;
+    }
 }
 
 @media (min-width: 768px) {
     [lds~="md-pos--absolute"] {
         position: absolute;
+    }
+
+    [lds~="md-pos--fixed"] {
+        position: fixed;
+    }
+
+    [lds~="md-pos--relative"] {
+        position: relative;
     }
 }
 
@@ -2924,11 +2919,27 @@ div[lds-icon] {
     [lds~="lg-pos--absolute"] {
         position: absolute;
     }
+
+    [lds~="lg-pos--fixed"] {
+        position: fixed;
+    }
+
+    [lds~="lg-pos--relative"] {
+        position: relative;
+    }
 }
 
 @media (min-width: 1280px) {
     [lds~="xl-pos--absolute"] {
         position: absolute;
+    }
+
+    [lds~="xl-pos--fixed"] {
+        position: fixed;
+    }
+
+    [lds~="xl-pos--relative"] {
+        position: relative;
     }
 }
 
@@ -3157,7 +3168,6 @@ div[lds-icon] {
 [lds~="bottom--n20"] {
     bottom: -20px;
 }
-
 
 
 @media (min-width: 0) {
@@ -4084,7 +4094,6 @@ div[lds-icon] {
         bottom: -20px;
     }
 }
-
 
 
 
