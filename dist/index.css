@@ -2933,37 +2933,1155 @@ div[lds-icon] {
 }
 
 
-[lds~="pos--relative"] {
-    position: relative;
+
+[lds~="left--0"] {
+    left: 0px;
 }
 
+
+[lds~="right--0"] {
+    right: 0px;
+}
+
+
+[lds~="top--0"] {
+    top: 0px;
+}
+
+
+[lds~="bottom--0"] {
+    bottom: 0px;
+}
+
+
+[lds~="left--1"] {
+    left: 1px;
+}
+
+
+[lds~="right--1"] {
+    right: 1px;
+}
+
+
+[lds~="top--1"] {
+    top: 1px;
+}
+
+
+[lds~="bottom--1"] {
+    bottom: 1px;
+}
+
+
+[lds~="left--5"] {
+    left: 5px;
+}
+
+
+[lds~="right--5"] {
+    right: 5px;
+}
+
+
+[lds~="top--5"] {
+    top: 5px;
+}
+
+
+[lds~="bottom--5"] {
+    bottom: 5px;
+}
+
+
+[lds~="left--10"] {
+    left: 10px;
+}
+
+
+[lds~="right--10"] {
+    right: 10px;
+}
+
+
+[lds~="top--10"] {
+    top: 10px;
+}
+
+
+[lds~="bottom--10"] {
+    bottom: 10px;
+}
+
+
+[lds~="left--15"] {
+    left: 15px;
+}
+
+
+[lds~="right--15"] {
+    right: 15px;
+}
+
+
+[lds~="top--15"] {
+    top: 15px;
+}
+
+
+[lds~="bottom--15"] {
+    bottom: 15px;
+}
+
+
+
+[lds~="left--20"] {
+    left: 20px;
+}
+
+
+[lds~="right--20"] {
+    right: 20px;
+}
+
+
+[lds~="top--20"] {
+    top: 20px;
+}
+
+
+[lds~="bottom--20"] {
+    bottom: 20px;
+}
+
+
+
+
+
+[lds~="left--n1"] {
+    left: -1px;
+}
+
+
+[lds~="right--n1"] {
+    right: -1px;
+}
+
+
+[lds~="top--n1"] {
+    top: -1px;
+}
+
+
+[lds~="bottom--n1"] {
+    bottom: -1px;
+}
+
+
+[lds~="left--n5"] {
+    left: -5px;
+}
+
+
+[lds~="right--n5"] {
+    right: -5px;
+}
+
+
+[lds~="top--n5"] {
+    top: -5px;
+}
+
+
+[lds~="bottom--n5"] {
+    bottom: -5px;
+}
+
+
+[lds~="left--n10"] {
+    left: -10px;
+}
+
+
+[lds~="right--n10"] {
+    right: -10px;
+}
+
+
+[lds~="top--n10"] {
+    top: -10px;
+}
+
+
+[lds~="bottom--n10"] {
+    bottom: -10px;
+}
+
+
+[lds~="left--n15"] {
+    left: -15px;
+}
+
+
+[lds~="right--n15"] {
+    right: -15px;
+}
+
+
+[lds~="top--n15"] {
+    top: -15px;
+}
+
+
+[lds~="bottom--n15"] {
+    bottom: -15px;
+}
+
+
+
+[lds~="left--n20"] {
+    left: -20px;
+}
+
+
+[lds~="right--n20"] {
+    right: -20px;
+}
+
+
+[lds~="top--n20"] {
+    top: -20px;
+}
+
+
+[lds~="bottom--n20"] {
+    bottom: -20px;
+}
+
+
+
 @media (min-width: 0) {
-    [lds~="xs-pos--relative"] {
-        position: relative;
+
+
+    [lds~="xs-left--0"] {
+        left: 0px;
+    }
+
+    [lds~="xs-right--0"] {
+        right: 0px;
+    }
+
+    [lds~="xs-top--0"] {
+        top: 0px;
+    }
+
+    [lds~="xs-bottom--0"] {
+        bottom: 0px;
+    }
+
+    [lds~="xs-left--1"] {
+        left: 1px;
+    }
+
+    [lds~="xs-right--1"] {
+        right: 1px;
+    }
+
+    [lds~="xs-top--1"] {
+        top: 1px;
+    }
+
+    [lds~="xs-bottom--1"] {
+        bottom: 1px;
+    }
+
+    [lds~="xs-left--5"] {
+        left: 5px;
+    }
+
+    [lds~="xs-right--5"] {
+        right: 5px;
+    }
+
+    [lds~="xs-top--5"] {
+        top: 5px;
+    }
+
+    [lds~="xs-bottom--5"] {
+        bottom: 5px;
+    }
+
+    [lds~="xs-left--10"] {
+        left: 10px;
+    }
+
+    [lds~="xs-right--10"] {
+        right: 10px;
+    }
+
+    [lds~="xs-top--10"] {
+        top: 10px;
+    }
+
+    [lds~="xs-bottom--10"] {
+        bottom: 10px;
+    }
+
+    [lds~="xs-left--15"] {
+        left: 15px;
+    }
+
+    [lds~="xs-right--15"] {
+        right: 15px;
+    }
+
+    [lds~="xs-top--15"] {
+        top: 15px;
+    }
+
+    [lds~="xs-bottom--15"] {
+        bottom: 15px;
+    }
+
+
+    [lds~="xs-left--20"] {
+        left: 20px;
+    }
+
+    [lds~="xs-right--20"] {
+        right: 20px;
+    }
+
+    [lds~="xs-top--20"] {
+        top: 20px;
+    }
+
+    [lds~="xs-bottom--20"] {
+        bottom: 20px;
+    }
+
+
+
+
+    [lds~="xs-left--n1"] {
+        left: -1px;
+    }
+
+    [lds~="xs-right--n1"] {
+        right: -1px;
+    }
+
+    [lds~="xs-top--n1"] {
+        top: -1px;
+    }
+
+    [lds~="xs-bottom--n1"] {
+        bottom: -1px;
+    }
+
+    [lds~="xs-left--n5"] {
+        left: -5px;
+    }
+
+    [lds~="xs-right--n5"] {
+        right: -5px;
+    }
+
+    [lds~="xs-top--n5"] {
+        top: -5px;
+    }
+
+    [lds~="xs-bottom--n5"] {
+        bottom: -5px;
+    }
+
+    [lds~="xs-left--n10"] {
+        left: -10px;
+    }
+
+    [lds~="xs-right--n10"] {
+        right: -10px;
+    }
+
+    [lds~="xs-top--n10"] {
+        top: -10px;
+    }
+
+    [lds~="xs-bottom--n10"] {
+        bottom: -10px;
+    }
+
+    [lds~="xs-left--n15"] {
+        left: -15px;
+    }
+
+    [lds~="xs-right--n15"] {
+        right: -15px;
+    }
+
+    [lds~="xs-top--n15"] {
+        top: -15px;
+    }
+
+    [lds~="xs-bottom--n15"] {
+        bottom: -15px;
+    }
+
+
+    [lds~="xs-left--n20"] {
+        left: -20px;
+    }
+
+    [lds~="xs-right--n20"] {
+        right: -20px;
+    }
+
+    [lds~="xs-top--n20"] {
+        top: -20px;
+    }
+
+    [lds~="xs-bottom--n20"] {
+        bottom: -20px;
     }
 }
 
 @media (min-width: 640px) {
-    [lds~="sm-pos--relative"] {
-        position: relative;
+
+
+    [lds~="sm-left--0"] {
+        left: 0px;
+    }
+
+    [lds~="sm-right--0"] {
+        right: 0px;
+    }
+
+    [lds~="sm-top--0"] {
+        top: 0px;
+    }
+
+    [lds~="sm-bottom--0"] {
+        bottom: 0px;
+    }
+
+    [lds~="sm-left--1"] {
+        left: 1px;
+    }
+
+    [lds~="sm-right--1"] {
+        right: 1px;
+    }
+
+    [lds~="sm-top--1"] {
+        top: 1px;
+    }
+
+    [lds~="sm-bottom--1"] {
+        bottom: 1px;
+    }
+
+    [lds~="sm-left--5"] {
+        left: 5px;
+    }
+
+    [lds~="sm-right--5"] {
+        right: 5px;
+    }
+
+    [lds~="sm-top--5"] {
+        top: 5px;
+    }
+
+    [lds~="sm-bottom--5"] {
+        bottom: 5px;
+    }
+
+    [lds~="sm-left--10"] {
+        left: 10px;
+    }
+
+    [lds~="sm-right--10"] {
+        right: 10px;
+    }
+
+    [lds~="sm-top--10"] {
+        top: 10px;
+    }
+
+    [lds~="sm-bottom--10"] {
+        bottom: 10px;
+    }
+
+    [lds~="sm-left--15"] {
+        left: 15px;
+    }
+
+    [lds~="sm-right--15"] {
+        right: 15px;
+    }
+
+    [lds~="sm-top--15"] {
+        top: 15px;
+    }
+
+    [lds~="sm-bottom--15"] {
+        bottom: 15px;
+    }
+
+
+    [lds~="sm-left--20"] {
+        left: 20px;
+    }
+
+    [lds~="sm-right--20"] {
+        right: 20px;
+    }
+
+    [lds~="sm-top--20"] {
+        top: 20px;
+    }
+
+    [lds~="sm-bottom--20"] {
+        bottom: 20px;
+    }
+
+
+
+
+    [lds~="sm-left--n1"] {
+        left: -1px;
+    }
+
+    [lds~="sm-right--n1"] {
+        right: -1px;
+    }
+
+    [lds~="sm-top--n1"] {
+        top: -1px;
+    }
+
+    [lds~="sm-bottom--n1"] {
+        bottom: -1px;
+    }
+
+    [lds~="sm-left--n5"] {
+        left: -5px;
+    }
+
+    [lds~="sm-right--n5"] {
+        right: -5px;
+    }
+
+    [lds~="sm-top--n5"] {
+        top: -5px;
+    }
+
+    [lds~="sm-bottom--n5"] {
+        bottom: -5px;
+    }
+
+    [lds~="sm-left--n10"] {
+        left: -10px;
+    }
+
+    [lds~="sm-right--n10"] {
+        right: -10px;
+    }
+
+    [lds~="sm-top--n10"] {
+        top: -10px;
+    }
+
+    [lds~="sm-bottom--n10"] {
+        bottom: -10px;
+    }
+
+    [lds~="sm-left--n15"] {
+        left: -15px;
+    }
+
+    [lds~="sm-right--n15"] {
+        right: -15px;
+    }
+
+    [lds~="sm-top--n15"] {
+        top: -15px;
+    }
+
+    [lds~="sm-bottom--n15"] {
+        bottom: -15px;
+    }
+
+
+    [lds~="sm-left--n20"] {
+        left: -20px;
+    }
+
+    [lds~="sm-right--n20"] {
+        right: -20px;
+    }
+
+    [lds~="sm-top--n20"] {
+        top: -20px;
+    }
+
+    [lds~="sm-bottom--n20"] {
+        bottom: -20px;
     }
 }
 
 @media (min-width: 768px) {
-    [lds~="md-pos--relative"] {
-        position: relative;
+
+
+    [lds~="md-left--0"] {
+        left: 0px;
+    }
+
+    [lds~="md-right--0"] {
+        right: 0px;
+    }
+
+    [lds~="md-top--0"] {
+        top: 0px;
+    }
+
+    [lds~="md-bottom--0"] {
+        bottom: 0px;
+    }
+
+    [lds~="md-left--1"] {
+        left: 1px;
+    }
+
+    [lds~="md-right--1"] {
+        right: 1px;
+    }
+
+    [lds~="md-top--1"] {
+        top: 1px;
+    }
+
+    [lds~="md-bottom--1"] {
+        bottom: 1px;
+    }
+
+    [lds~="md-left--5"] {
+        left: 5px;
+    }
+
+    [lds~="md-right--5"] {
+        right: 5px;
+    }
+
+    [lds~="md-top--5"] {
+        top: 5px;
+    }
+
+    [lds~="md-bottom--5"] {
+        bottom: 5px;
+    }
+
+    [lds~="md-left--10"] {
+        left: 10px;
+    }
+
+    [lds~="md-right--10"] {
+        right: 10px;
+    }
+
+    [lds~="md-top--10"] {
+        top: 10px;
+    }
+
+    [lds~="md-bottom--10"] {
+        bottom: 10px;
+    }
+
+    [lds~="md-left--15"] {
+        left: 15px;
+    }
+
+    [lds~="md-right--15"] {
+        right: 15px;
+    }
+
+    [lds~="md-top--15"] {
+        top: 15px;
+    }
+
+    [lds~="md-bottom--15"] {
+        bottom: 15px;
+    }
+
+
+    [lds~="md-left--20"] {
+        left: 20px;
+    }
+
+    [lds~="md-right--20"] {
+        right: 20px;
+    }
+
+    [lds~="md-top--20"] {
+        top: 20px;
+    }
+
+    [lds~="md-bottom--20"] {
+        bottom: 20px;
+    }
+
+
+
+
+    [lds~="md-left--n1"] {
+        left: -1px;
+    }
+
+    [lds~="md-right--n1"] {
+        right: -1px;
+    }
+
+    [lds~="md-top--n1"] {
+        top: -1px;
+    }
+
+    [lds~="md-bottom--n1"] {
+        bottom: -1px;
+    }
+
+    [lds~="md-left--n5"] {
+        left: -5px;
+    }
+
+    [lds~="md-right--n5"] {
+        right: -5px;
+    }
+
+    [lds~="md-top--n5"] {
+        top: -5px;
+    }
+
+    [lds~="md-bottom--n5"] {
+        bottom: -5px;
+    }
+
+    [lds~="md-left--n10"] {
+        left: -10px;
+    }
+
+    [lds~="md-right--n10"] {
+        right: -10px;
+    }
+
+    [lds~="md-top--n10"] {
+        top: -10px;
+    }
+
+    [lds~="md-bottom--n10"] {
+        bottom: -10px;
+    }
+
+    [lds~="md-left--n15"] {
+        left: -15px;
+    }
+
+    [lds~="md-right--n15"] {
+        right: -15px;
+    }
+
+    [lds~="md-top--n15"] {
+        top: -15px;
+    }
+
+    [lds~="md-bottom--n15"] {
+        bottom: -15px;
+    }
+
+
+    [lds~="md-left--n20"] {
+        left: -20px;
+    }
+
+    [lds~="md-right--n20"] {
+        right: -20px;
+    }
+
+    [lds~="md-top--n20"] {
+        top: -20px;
+    }
+
+    [lds~="md-bottom--n20"] {
+        bottom: -20px;
     }
 }
 
 @media (min-width: 1024px) {
-    [lds~="lg-pos--relative"] {
-        position: relative;
+
+
+    [lds~="lg-left--0"] {
+        left: 0px;
+    }
+
+    [lds~="lg-right--0"] {
+        right: 0px;
+    }
+
+    [lds~="lg-top--0"] {
+        top: 0px;
+    }
+
+    [lds~="lg-bottom--0"] {
+        bottom: 0px;
+    }
+
+    [lds~="lg-left--1"] {
+        left: 1px;
+    }
+
+    [lds~="lg-right--1"] {
+        right: 1px;
+    }
+
+    [lds~="lg-top--1"] {
+        top: 1px;
+    }
+
+    [lds~="lg-bottom--1"] {
+        bottom: 1px;
+    }
+
+    [lds~="lg-left--5"] {
+        left: 5px;
+    }
+
+    [lds~="lg-right--5"] {
+        right: 5px;
+    }
+
+    [lds~="lg-top--5"] {
+        top: 5px;
+    }
+
+    [lds~="lg-bottom--5"] {
+        bottom: 5px;
+    }
+
+    [lds~="lg-left--10"] {
+        left: 10px;
+    }
+
+    [lds~="lg-right--10"] {
+        right: 10px;
+    }
+
+    [lds~="lg-top--10"] {
+        top: 10px;
+    }
+
+    [lds~="lg-bottom--10"] {
+        bottom: 10px;
+    }
+
+    [lds~="lg-left--15"] {
+        left: 15px;
+    }
+
+    [lds~="lg-right--15"] {
+        right: 15px;
+    }
+
+    [lds~="lg-top--15"] {
+        top: 15px;
+    }
+
+    [lds~="lg-bottom--15"] {
+        bottom: 15px;
+    }
+
+
+    [lds~="lg-left--20"] {
+        left: 20px;
+    }
+
+    [lds~="lg-right--20"] {
+        right: 20px;
+    }
+
+    [lds~="lg-top--20"] {
+        top: 20px;
+    }
+
+    [lds~="lg-bottom--20"] {
+        bottom: 20px;
+    }
+
+
+
+
+    [lds~="lg-left--n1"] {
+        left: -1px;
+    }
+
+    [lds~="lg-right--n1"] {
+        right: -1px;
+    }
+
+    [lds~="lg-top--n1"] {
+        top: -1px;
+    }
+
+    [lds~="lg-bottom--n1"] {
+        bottom: -1px;
+    }
+
+    [lds~="lg-left--n5"] {
+        left: -5px;
+    }
+
+    [lds~="lg-right--n5"] {
+        right: -5px;
+    }
+
+    [lds~="lg-top--n5"] {
+        top: -5px;
+    }
+
+    [lds~="lg-bottom--n5"] {
+        bottom: -5px;
+    }
+
+    [lds~="lg-left--n10"] {
+        left: -10px;
+    }
+
+    [lds~="lg-right--n10"] {
+        right: -10px;
+    }
+
+    [lds~="lg-top--n10"] {
+        top: -10px;
+    }
+
+    [lds~="lg-bottom--n10"] {
+        bottom: -10px;
+    }
+
+    [lds~="lg-left--n15"] {
+        left: -15px;
+    }
+
+    [lds~="lg-right--n15"] {
+        right: -15px;
+    }
+
+    [lds~="lg-top--n15"] {
+        top: -15px;
+    }
+
+    [lds~="lg-bottom--n15"] {
+        bottom: -15px;
+    }
+
+
+    [lds~="lg-left--n20"] {
+        left: -20px;
+    }
+
+    [lds~="lg-right--n20"] {
+        right: -20px;
+    }
+
+    [lds~="lg-top--n20"] {
+        top: -20px;
+    }
+
+    [lds~="lg-bottom--n20"] {
+        bottom: -20px;
     }
 }
 
 @media (min-width: 1280px) {
-    [lds~="xl-pos--relative"] {
-        position: relative;
+
+
+    [lds~="xl-left--0"] {
+        left: 0px;
+    }
+
+    [lds~="xl-right--0"] {
+        right: 0px;
+    }
+
+    [lds~="xl-top--0"] {
+        top: 0px;
+    }
+
+    [lds~="xl-bottom--0"] {
+        bottom: 0px;
+    }
+
+    [lds~="xl-left--1"] {
+        left: 1px;
+    }
+
+    [lds~="xl-right--1"] {
+        right: 1px;
+    }
+
+    [lds~="xl-top--1"] {
+        top: 1px;
+    }
+
+    [lds~="xl-bottom--1"] {
+        bottom: 1px;
+    }
+
+    [lds~="xl-left--5"] {
+        left: 5px;
+    }
+
+    [lds~="xl-right--5"] {
+        right: 5px;
+    }
+
+    [lds~="xl-top--5"] {
+        top: 5px;
+    }
+
+    [lds~="xl-bottom--5"] {
+        bottom: 5px;
+    }
+
+    [lds~="xl-left--10"] {
+        left: 10px;
+    }
+
+    [lds~="xl-right--10"] {
+        right: 10px;
+    }
+
+    [lds~="xl-top--10"] {
+        top: 10px;
+    }
+
+    [lds~="xl-bottom--10"] {
+        bottom: 10px;
+    }
+
+    [lds~="xl-left--15"] {
+        left: 15px;
+    }
+
+    [lds~="xl-right--15"] {
+        right: 15px;
+    }
+
+    [lds~="xl-top--15"] {
+        top: 15px;
+    }
+
+    [lds~="xl-bottom--15"] {
+        bottom: 15px;
+    }
+
+
+    [lds~="xl-left--20"] {
+        left: 20px;
+    }
+
+    [lds~="xl-right--20"] {
+        right: 20px;
+    }
+
+    [lds~="xl-top--20"] {
+        top: 20px;
+    }
+
+    [lds~="xl-bottom--20"] {
+        bottom: 20px;
+    }
+
+
+
+
+    [lds~="xl-left--n1"] {
+        left: -1px;
+    }
+
+    [lds~="xl-right--n1"] {
+        right: -1px;
+    }
+
+    [lds~="xl-top--n1"] {
+        top: -1px;
+    }
+
+    [lds~="xl-bottom--n1"] {
+        bottom: -1px;
+    }
+
+    [lds~="xl-left--n5"] {
+        left: -5px;
+    }
+
+    [lds~="xl-right--n5"] {
+        right: -5px;
+    }
+
+    [lds~="xl-top--n5"] {
+        top: -5px;
+    }
+
+    [lds~="xl-bottom--n5"] {
+        bottom: -5px;
+    }
+
+    [lds~="xl-left--n10"] {
+        left: -10px;
+    }
+
+    [lds~="xl-right--n10"] {
+        right: -10px;
+    }
+
+    [lds~="xl-top--n10"] {
+        top: -10px;
+    }
+
+    [lds~="xl-bottom--n10"] {
+        bottom: -10px;
+    }
+
+    [lds~="xl-left--n15"] {
+        left: -15px;
+    }
+
+    [lds~="xl-right--n15"] {
+        right: -15px;
+    }
+
+    [lds~="xl-top--n15"] {
+        top: -15px;
+    }
+
+    [lds~="xl-bottom--n15"] {
+        bottom: -15px;
+    }
+
+
+    [lds~="xl-left--n20"] {
+        left: -20px;
+    }
+
+    [lds~="xl-right--n20"] {
+        right: -20px;
+    }
+
+    [lds~="xl-top--n20"] {
+        top: -20px;
+    }
+
+    [lds~="xl-bottom--n20"] {
+        bottom: -20px;
     }
 }
 
